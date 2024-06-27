@@ -1,0 +1,192 @@
+.MainHomeSociallink {
+    position: relative;
+  }
+  
+  .HomeSociallink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+    position: absolute;
+    left: 0;
+    top: 39%;
+    transform: translateY(-50%);
+  }
+
+
+  .MainImage{
+    width: 100%;
+    height: 95%;
+    margin-left: 20%;
+    object-fit: cover;
+    margin-top: 2vh;
+  }
+ 
+  .thirdColomn{
+    margin-left: 15%;
+  }
+  .thirdcolomnfirsttext {
+    font-weight: 800;
+    font-family: 'Inter';
+    font-size: 59px;
+}
+  .thirdcolomnsecondtext {
+    font-weight: 800;
+    font-family: 'Inter';
+    font-size: 59px;
+}
+
+.firsttextspan {
+  color: #0C3F78;
+}
+.secondtextspan {
+  color: #00AFEF;
+}
+.thirdcolomnparagraph{
+  font-family: 'Inter';
+  font-weight: 500;
+}
+.fourthrow {
+  margin-top: 2% !important;
+}
+.learbbutton {
+  background-color: #EC981F;
+  border: none;
+  font-family: 'Inter';
+  font-weight: 600;
+  margin-top: 2px;
+  margin-left: 14%;
+  padding-left: 17px;
+  padding-right: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.dottedline {
+  width: 6rem;
+  /* margin-top: 11rem; */
+  margin-top: 29%;
+  /* margin-left: 14rem; */
+  margin-left: 42%;
+  padding: 0;
+}
+
+ .seconrow.row {
+  margin-top: 2%;
+}
+.MainContainer{
+  margin-top: 2%;
+}
+.secondsectionfirstimage{
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+}
+.showelem{
+  display: none;
+}
+.secondsectionsecondimage{
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+}
+.textOfSecondSection{
+  font-family: 'Inter';
+  line-height: 160%;
+  font-weight: 400;
+  font-size: 19px;
+}
+.linebar {
+  width: 9%;
+  height: 2px;
+  background-color: #1F1F1F;
+}
+.linebartext{
+  font-family: "Inter";
+}
+.linebarcontainer{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 35px;
+  width: 100%;
+  padding: 0;
+  gap: 15px;
+}
+.topcardtext {
+  font-weight: 600;
+  font-size: 24px;
+}
+.cardtext{
+  color: #4E4E4E;
+  font-family: 'Inter';
+  font-weight: 10px;
+}
+
+  @media (min-width: 500px) {
+    .HomeSociallink {
+      flex-direction: row;
+      transform: rotate(270deg) translateX(-50%);
+      transform-origin: left center;
+      left: 2rem;
+    }
+  }
+  @media (max-width: 500px) {
+    .HomeSociallink {
+      display: none;
+    }
+    .MainImage{
+      margin-left: 0%;
+      margin-top: 1vh;
+    }
+    .thirdColomn{
+      margin-left: 0%;
+      margin-top: 20px !important;
+    }
+    .thirdcolomnfirsttext{
+      text-align: center;
+      font-size: 40px;
+    }
+   .thirdcolomnsecondtext{
+    text-align: center;
+    font-size: 40px;
+   }
+   .learbbutton{
+    margin-top: 1% !important;
+    margin-left: 35%;
+    text-align: center;
+   }
+   .dottedline{
+    display: none;
+   }
+   .seconrow{
+    margin-top: 8%;
+   }
+   .textOfSecondSection{
+    display: none;
+   }
+   .showelem{
+    display: block;
+   }
+   .tenthcol{
+    display: none;
+   }
+   .secondsectionsecondimage{
+    height: 100%;
+  }
+  .secondsectionfirstimage{
+    height: 100%;
+  }
+  .linebar{
+    display: none;
+  }
+  .linebarContainer{
+    text-align: center;
+  }
+  
+  }
+  

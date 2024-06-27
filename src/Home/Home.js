@@ -1,10 +1,17 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
+import { Container } from "react-bootstrap";
+import HomeLanding from "./HomeLandingPage/HomeLanding";
+import ContactInfo from "./ContactInformation/ContactInfo";
+import UpperFooter from "./UpperFoooter/UpperFooter";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <Container>
+      <HomeLanding />
+      <ContactInfo />
+      <UpperFooter />
+    </Container>
   );
 };
 
