@@ -1,0 +1,11 @@
+.cardimg {
+    width: clamp(40px, 3vw, 60px);
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .cardContainer {
+    width: 100% !important;
+  }
+
+
