@@ -5,7 +5,7 @@ import MainNavBar from "../GlobalComponent/MainNavBar.js/MainNavBar";
 const InitialRouter = () => {
   return (
     <div>
-      <MainNavBar />
+      {/* <MainNavBar /> */}
       <RootRouter />
     </div>
   );

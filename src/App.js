@@ -4,9 +4,9 @@ import InitialRouter from "./RootRouter/InitialRouter";
 
 const App = () => {
   return (
-    <div>
+    <>
       <InitialRouter />
-    </div>
+    </>
   );
 };
 
