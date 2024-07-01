@@ -82,7 +82,7 @@ const ContactInfo = () => {
       <Row>
         <Col sm={12} xs={12}>
           <ul>
-            <li>Projects</li>
+            <li className="contactinfoli">Projects</li>
           </ul>
         </Col>
         <Col className="projectfirsttext projectcontain " sm={12} xs={12}>

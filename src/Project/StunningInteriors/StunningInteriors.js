@@ -5,15 +5,6 @@ import Marquee from "react-fast-marquee";
 export default function StunningInteriors() {
   return (
     <div>
-      <Row
-        style={{
-          textAlign: "center",
-          alignItems: "center",
-          marginTop: "0.7rem",
-        }}
-      >
-        <Col className="happy-client">HAPPY CLIENTS</Col>
-      </Row>
       <Row style={{ marginTop: "2rem" }}>
         <Marquee>
           <div className="molex-div">
@@ -57,7 +48,6 @@ export default function StunningInteriors() {
       <Row
         style={{
           marginTop: "1rem",
-          padding: "3.6rem",
         }}
       >
         <Col className="milestone-1234">

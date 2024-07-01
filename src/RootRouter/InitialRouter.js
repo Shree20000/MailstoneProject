@@ -5,11 +5,11 @@ import Footer from "../GlobalComponent/Footer/Footer";
 
 const InitialRouter = () => {
   return (
-    <div>
+    <>
       <MainNavBar />
       <RootRouter />
       <Footer />
-    </div>
+    </>
   );
 };
 

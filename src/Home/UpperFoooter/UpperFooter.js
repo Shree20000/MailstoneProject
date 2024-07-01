@@ -5,9 +5,9 @@ import Marquee from "react-fast-marquee";
 
 const UpperFooter = () => {
   return (
-    <Container fluid>
+    <Container fluid className="upperfooterContainer">
       <Row>
-        <Col sm={12} xs={12}>
+        <Col sm={12} xs={12} className="upperfooterImage">
           <img
             src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719474389/mailStone/mq7gotjks6d01yqsksc9.png"
             alt=""
