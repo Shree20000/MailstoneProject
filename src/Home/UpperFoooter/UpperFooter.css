@@ -1,7 +1,7 @@
 .footerimage{
     width: 100%;
-    height: auto;
     object-fit: cover;
+    height: 75%;
 
 }
 .footerfirsttext{
@@ -13,6 +13,7 @@
 .firstfootertext{
     color: white;
     font-family: "Roboto";
+    font-size: 50px;
 }
 .footersecontextt{
     display: flex;
@@ -22,17 +23,29 @@
 }
 .secondfootertext{
     font-family: "Roboto";
+    font-size: 50px;
 }
 .footersecondcol{
-    margin-top: -5% !important;
+    margin-top: -13.4% !important;
 }
-@media (max-width: 500px) {
-    .footersecondcol {
-        margin-top: -11% !important;
+.upperfooterContainer{
+    padding: 0 !important;
+    width: 100% !important;
+}
+.upperfooterImage{
+    padding: 0 !important;
+}
+@media (min-width: 501px) and (max-width: 900px) {
+    .footersecondcol.col-sm-12.col-12 {
+      margin-top: -13% !important;
     }
-}
-@media (max-width: 900px) {
-    .footersecondcol {
-        margin-top: -7% !important;
+  }
+  
+  @media (max-width: 500px) {
+    .footersecondcol.col-sm-12.col-12 {
+      margin-top: -10% !important;
     }
-}
+    .footerimage {
+      height: auto;
+    }
+  }

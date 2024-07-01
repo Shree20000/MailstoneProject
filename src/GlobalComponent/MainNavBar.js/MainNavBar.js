@@ -22,7 +22,7 @@ const MainNavBar = () => {
             <Nav.Link onClick={() => navigate("/")}>Home</Nav.Link>
             <Nav.Link onClick={() => navigate("/service")}>Services</Nav.Link>
             <Nav.Link onClick={() => navigate("/project")}>Projects</Nav.Link>
-            <Nav.Link href="#contact">About Us</Nav.Link>
+            <Nav.Link onClick={() => navigate("/AboutUs")}>About Us</Nav.Link>
           </Nav>
           <button className="mainnavBarButton">JBS Interior</button>
         </Navbar.Collapse>

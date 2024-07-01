@@ -196,6 +196,11 @@ p.projectbuttoncontainedicon {
     justify-content: center;
     margin-bottom: 7%;
 }
+.contactinfoli{
+    font-weight: 500;
+    font-family: "Inter";
+    color: #4E4E4E;
+}
 @media (max-width: 500px) {
     
     .circlesideimage {
