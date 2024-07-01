@@ -5,7 +5,7 @@ import InitialRouter from "./RootRouter/InitialRouter";
 const App = () => {
   return (
     <>
-      <InitialRouter />
+      <RootRouter />
     </>
   );
 };

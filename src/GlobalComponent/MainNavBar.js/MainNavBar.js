@@ -24,7 +24,9 @@ const MainNavBar = () => {
             <Nav.Link onClick={() => navigate("/project")}>Projects</Nav.Link>
             <Nav.Link onClick={() => navigate("/AboutUs")}>About Us</Nav.Link>
           </Nav>
-          <button className="mainnavBarButton">JBS Interior</button>
+          <button className="mainnavBarButton" onClick={() => navigate("/jbs")}>
+            JBS Interior
+          </button>
         </Navbar.Collapse>
       </Navbar>
     </Container>
