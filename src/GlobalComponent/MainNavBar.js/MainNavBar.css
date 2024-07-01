@@ -1,0 +1,57 @@
+
+  
+  .MainNavBarImage {
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+  }
+  
+  .NavBarContainer {
+    padding: 0;
+  }
+  
+  .mainContainerNavComponent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .MainNavBarImage {
+    width: 100px; 
+  }
+  
+ 
+  
+  .navbar-toggler {
+    margin-left: auto;
+  }
+.mainnavBarButton {
+    border: 3px solid #EC981F;
+    padding: 8px;
+    border-radius: 23px;
+    background-color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #0C3F78;
+}
+  
+
+.MainNavBarButtons {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  font-family: "Inter";
+  font-weight: 700;
+  gap: 2rem; /* Default gap */
+}
+
+@media (max-width: 576px) {
+  .MainNavBarImage {
+    max-width: 60px; 
+  }
+  .MainNavBarButtons {
+    gap: 0.5rem; 
+  }
+}

@@ -1,0 +1,38 @@
+.footerimage{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+.footerfirsttext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstfootertext{
+    color: white;
+    font-family: "Roboto";
+}
+.footersecontextt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.secondfootertext{
+    font-family: "Roboto";
+}
+.footersecondcol{
+    margin-top: -5% !important;
+}
+@media (max-width: 500px) {
+    .footersecondcol {
+        margin-top: -11% !important;
+    }
+}
+@media (max-width: 900px) {
+    .footersecondcol {
+        margin-top: -7% !important;
+    }
+}

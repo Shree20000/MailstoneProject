@@ -1,0 +1,233 @@
+.contactimage{
+    width: 100%;
+    height: 87%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.infomationfirsttext{
+    font-size: 66px;
+margin-top: 2%;
+}
+.infomationsecondtext {
+    font-size: 66px;
+    color: #4E4E4E;
+}
+.colorcontainer{
+    background-color: #0C3F78;
+}
+.contactinfoform{
+    background-color: #0C3F78;
+    padding: 2rem;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; 
+    padding-bottom: 0;
+}
+.contactinfoinput {
+    width: 100%;
+    background-color: #0C3F78;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    padding: 0.3rem;
+}
+.contactinfoformheader{
+    color: white;
+    font-family: 'Roboto';
+    
+}
+.contactinfoformparagraph{
+    color: white;
+    font-family: 'Inter';
+    font-size: 19px;
+}
+.contactinfoheaders{
+    color: white;
+    font-family: 'Roboto';
+    margin-top: 10px;   
+    margin-bottom: 0;
+}
+.contactinfobuttoncontainer {
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.contactinfobutton {
+    border-radius: 6px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    border: none;
+    background-color: #EC981F;
+    font-weight: 500;
+    font-family: 'Inter';
+}
+.circleicons{
+    display: flex;
+    gap: 20px;
+    margin-top: 9%;
+    margin-left: 3%;
+}
+.circlecontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.circles {
+    width: clamp(100px, 30vw, 120px);
+}
+
+.socialicon {
+    height: 36px;
+    width: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00AFEF;
+    border-radius: 50%;
+    color: white;
+    font-size: 19px;
+}
+.colorcontainer{
+    border-radius: 12px;
+}
+.contactInforow{
+    margin-top: 1.5% !important;
+}
+
+.projectsecondtext{
+    text-align: center;
+    color: #EC981F;
+}
+.projectthirdtext{
+    margin-left: 35%;
+}
+.projectfourthtext{
+    display: flex;
+    justify-content: space-between;
+    color: #00AFEF;
+}
+.projecttexts {
+    font-size: 107px;
+    font-family: "Roboto";
+}
+.projecticon {
+    font-size: 96px;
+    color: black;
+}
+.verticalline{
+    height: 100%;
+    width: 8px;
+    background-color: black;
+}
+.secondimageapartment{
+    width: 100%;
+    height: 65.4%;
+    object-fit: cover;
+    overflow: hidden;
+    margin-top: 7%;
+}
+.firstimageapartment {
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    overflow: hidden;
+    margin-top: 5%;
+}
+.contentapartment{
+    margin-top: 5%;
+}
+.secondColomn{
+    display: flex;
+}
+.secondColomn {
+    gap: 25px;
+}
+.topcontainedheader{
+    display: flex;
+    justify-content: space-between;
+}
+.apartmentbtn {
+    background-color: white;
+    border-radius: 30px;
+    border-color:  #EC981F;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.projectbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    align-items: center;
+    border: 2px solid orange;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 26px;
+    background-color: white;
+    gap: 10px;
+}
+.projectbuttoncontained{
+    margin: 0;
+    padding: 0;
+}
+p.projectbuttoncontainedicon {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    margin-top: -2px;
+}
+
+.projectbuttonrow {
+    align-items: center;
+    display: flex;
+    margin-top: 4%;
+    justify-content: center;
+    margin-bottom: 7%;
+}
+@media (max-width: 500px) {
+    
+    .circlesideimage {
+        margin-top: 4% !important;
+    }
+    .circleicons{
+        margin-bottom: 5%;
+    }
+    .infomationfirsttext{
+        font-size: 40px;
+        margin-top: 2%;
+    }
+    .infomationsecondtext {
+        font-size: 40px;
+        color: #4E4E4E;
+    }
+    .projecttexts {
+        font-size: 32px;
+    }
+    .projecticon {
+        font-size: 30px;
+        color: black;
+    }
+    .projectthirdtext{
+        margin-left: 0%;
+    }
+    .projectcontain{
+        text-align: center;
+    }
+    .verticalline{
+        display: none;
+    }
+  }
+  
+
+
+
+
+
+ 
