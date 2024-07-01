@@ -1,6 +1,8 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import "./OurProject.css";
+import ProjectInfo from "../ProjectContactInfo/ProjectInfo";
+
 export default function OurProject() {
   return (
     <div>
@@ -23,6 +25,9 @@ export default function OurProject() {
             projects, each one reflects our commitment to excellence and our
             clients' unique visions.
           </Col>
+        </Row>
+        <Row>
+          <ProjectInfo />
         </Row>
       </Container>
     </div>

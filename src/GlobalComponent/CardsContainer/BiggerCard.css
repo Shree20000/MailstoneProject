@@ -1,3 +1,24 @@
 .ulbig{
     padding-left: 18px;
 }
+
+
+.biggercardbutton {
+    background-color: white;
+    border-radius: 30px !important;
+    border-color:  #EC981F;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.biggercardbuttonbtncontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:500px){
+
+  
+}
+

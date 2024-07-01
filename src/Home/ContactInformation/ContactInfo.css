@@ -114,7 +114,7 @@ margin-top: 2%;
     color: #00AFEF;
 }
 .projecttexts {
-    font-size: 107px;
+    font-size: 80px;
     font-family: "Roboto";
 }
 .projecticon {
@@ -163,6 +163,12 @@ margin-top: 2%;
     padding-right: 15px;
 }
 
+.imageContainer.row {
+    margin-top: 6% !important;
+}
+.imageContainerTop{
+    margin-top: 4% !important;
+}
 .projectbutton {
     display: flex;
     justify-content: center;
@@ -192,7 +198,7 @@ p.projectbuttoncontainedicon {
 .projectbuttonrow {
     align-items: center;
     display: flex;
-    margin-top: 4%;
+    margin-top: 9%;
     justify-content: center;
     margin-bottom: 7%;
 }
@@ -200,6 +206,10 @@ p.projectbuttoncontainedicon {
     font-weight: 500;
     font-family: "Inter";
     color: #4E4E4E;
+}
+
+button.projectbutton {
+    margin-top: 4% !important;
 }
 @media (max-width: 500px) {
     
@@ -210,12 +220,14 @@ p.projectbuttoncontainedicon {
         margin-bottom: 5%;
     }
     .infomationfirsttext{
-        font-size: 40px;
+        font-size: 38px;
         margin-top: 2%;
+        text-align: center;
     }
     .infomationsecondtext {
-        font-size: 40px;
+        font-size: 38px;
         color: #4E4E4E;
+        text-align: center;
     }
     .projecttexts {
         font-size: 32px;
@@ -232,6 +244,15 @@ p.projectbuttoncontainedicon {
     }
     .verticalline{
         display: none;
+    }
+    .apartmentbtn {
+        background-color: white;
+        border-radius: 30px;
+        border-color:  #EC981F;
+        padding-top: 3px !important;
+        padding-bottom: 3px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
   }
   
