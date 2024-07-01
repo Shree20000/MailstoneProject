@@ -1,8 +1,10 @@
-import React from 'react'
-import { Button, Col, Container, Image, Row } from 'react-bootstrap'
-import './Fabrication.css'
+import React, { useState } from "react";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
+import "./Fabrication.css";
 import { MdArrowOutward } from "react-icons/md";
-export default function Fabrication({upvc,buttonup,favimg,longtext}) {
+import ServiceModal from "../ServiceModal/ServiceModal";
+export default function Fabrication({ upvc, buttonup, favimg, longtext }) {
+  const [modal1, setModal1] = useState();
   return (
     <div>
       <Container>
@@ -10,7 +12,7 @@ export default function Fabrication({upvc,buttonup,favimg,longtext}) {
           <Col md={11} xs={11}>
             <Row>
               <Col md={10} xs={10} className="co-working1">
-             {upvc}
+                {upvc}
               </Col>
               <Col md={2} xs={1} className="marginleft1">
                 <Button className="commercial-button">{buttonup}</Button>
@@ -20,7 +22,7 @@ export default function Fabrication({upvc,buttonup,favimg,longtext}) {
               <Image src={favimg} className="image-height12345" />
             </Row>
             <span id="span-arrow1">
-              <Button className="outward23">
+              <Button className="outward23" onClick={() => setModal1(true)}>
                 <MdArrowOutward id="outword-icon123" />
               </Button>
             </span>
@@ -34,6 +36,7 @@ export default function Fabrication({upvc,buttonup,favimg,longtext}) {
           </Col>
         </Row>
       </Container>
+      {modal1 && <ServiceModal show={modal1} onHide={() => setModal1(false)} />}
     </div>
-  )
+  );
 }
