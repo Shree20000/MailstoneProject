@@ -15,7 +15,7 @@
 
 
   .MainImage{
-    width: 100%;
+    width: 110%;
     height: 95%;
     margin-left: 20%;
     object-fit: cover;
@@ -25,7 +25,7 @@
   .thirdColomn{
     margin-left: 15%;
   }
-  .thirdcolomnfirsttext {
+  .thirdcolomnfirsttext {  
     font-weight: 800;
     font-family: 'Inter';
     font-size: 59px;
@@ -65,7 +65,7 @@
 .dottedline {
   width: 6rem;
   /* margin-top: 11rem; */
-  margin-top: 29%;
+  margin-top: 42%;
   /* margin-left: 14rem; */
   margin-left: 42%;
   padding: 0;

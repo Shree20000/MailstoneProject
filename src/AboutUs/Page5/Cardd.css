@@ -1,0 +1,37 @@
+.meet-buttons {
+    padding: 0 5px;
+    margin-top: -19% !important;
+  }
+.meet-left-buttons{
+
+    height: 40px !important;
+  width: 40px !important;
+  border-radius: 50% !important;
+  margin-right: 5px !important;
+  border: 1px solid black !important;
+  background-color: rgba(255, 255, 255, 0.233) !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.meet-right-buttons {
+    border: 1px solid black !important;
+    /* padding: 5px 10px !important; */
+    border-radius: 30px !important;
+    background-color: rgba(255, 255, 255, 0.233) !important;
+    font-weight: 650 !important;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  @media only screen and (min-width: 800px) and (max-width: 1000px) {
+    .meet-buttons {
+        padding: 0 5px;
+        margin-top: -27% !important;
+      }
+  }
+  @media only screen and (min-width: 500px) and (max-width: 770px) {
+    .meet-buttons {
+        padding: 0 5px;
+        margin-top: -14% !important;
+      }
+  }
