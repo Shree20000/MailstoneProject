@@ -1,12 +1,15 @@
 import React from "react";
 import { Col } from "react-bootstrap";
+import "./BiggerCard.css";
 
 const BiggerCard = (props) => {
   return (
     <Col sm={7} xs={12}>
-      <div className="topcontainedheader">
+      <div className="biggercardbuttonbtncontainer">
         <h3>{props.headername}</h3>
-        <button className="apartmentbtn">{props.buttonname}</button>
+        <div className="biggercardbutton">
+          <button className="biggercardbutton">{props.buttonname}</button>
+        </div>
       </div>
       <img src={props.imgurl} alt="" className="firstimageapartment" />
       <ul className="ulbig">
