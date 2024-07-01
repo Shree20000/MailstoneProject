@@ -2,8 +2,10 @@ import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "./MainNavBar.css";
 import { Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const MainNavBar = () => {
+  const navigate = useNavigate();
   return (
     <Container className="NavBarContainer">
       <Navbar expand="sm" className="mainContainerNavComponent">
@@ -17,9 +19,9 @@ const MainNavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="MainNavBarButtons">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="#about">Services</Nav.Link>
-            <Nav.Link href="#services">Projects</Nav.Link>
+            <Nav.Link onClick={() => navigate("/")}>Home</Nav.Link>
+            <Nav.Link onClick={() => navigate("/service")}>Services</Nav.Link>
+            <Nav.Link onClick={() => navigate("/project")}>Projects</Nav.Link>
             <Nav.Link href="#contact">About Us</Nav.Link>
           </Nav>
           <button className="mainnavBarButton">JBS Interior</button>

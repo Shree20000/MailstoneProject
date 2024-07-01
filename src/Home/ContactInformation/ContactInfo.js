@@ -14,7 +14,7 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 const ContactInfo = () => {
   return (
-    <Container fluid>
+    <Container>
       <Row className="contactInforow">
         <Col sm={6} xs={12}>
           <h1 className="infomationfirsttext">Get in touch for </h1>

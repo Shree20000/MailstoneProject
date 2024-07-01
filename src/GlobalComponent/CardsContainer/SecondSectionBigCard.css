@@ -7,3 +7,8 @@
     display: flex;
     gap: 18px;
 }
+@media (max-width: 500px) {
+    .verticallineBigCard {
+        display: none;
+    }
+}
