@@ -1,0 +1,50 @@
+.commercial{
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 77.45px;
+   margin-left: 3rem;
+  color: #4E4E4E;  
+  margin-top: 5rem;    
+}
+.commercial-para{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+text-align: justified;
+color: #1E1E1E;
+margin-left: 5rem;
+margin-right: 5.5rem;
+margin-top: 1.5rem;
+text-align: justify;
+margin-bottom: 9rem !important;
+}
+/* https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719316631/ffbbbxt1cc1qdhumlkb3.png */
+@media (max-width: 767px) {
+    .commercial{
+        font-size: 18px;
+        font-weight: 750;
+        line-height: 40px;
+       margin-left: 0;
+      margin-top: 3rem;  
+      margin-right: 0;  
+    }
+    
+  }
+  @media (max-width: 767px) {
+    .commercial-para{
+        font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: justified;
+    color: #1E1E1E;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    word-spacing: -1px;
+    margin-bottom: 4rem !important;
+    }
+    
+  }

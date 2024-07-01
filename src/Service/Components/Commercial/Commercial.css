@@ -1,0 +1,61 @@
+.commercial{
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 77.45px;
+   margin-left: 4.6rem;
+  color: #4E4E4E;  
+  margin-top: 5rem;    
+}
+.commercial-para{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+text-align: justified;
+color: #1E1E1E;
+margin-left: 6.5rem;
+margin-right: 5.5rem;
+margin-top: 2rem;
+margin-bottom: 7rem !important;
+
+}
+.commercial-card-row{
+    margin-top: 3rem;
+    margin-left: 5.5rem;
+}
+.ofc-building{
+    margin-left: 2rem;
+}
+@media (max-width: 767px) {
+    .ofc-building{
+        margin-left: -2rem;
+        /* gap:20px; */
+        margin-top: 2.3rem !important;
+    }
+    
+  }
+  .msss{
+    font-size: 18px;
+  }
+  @media (max-width: 767px) {
+    .msss{
+        font-size: 14px;
+      }
+  }
+  .all-project{
+    font-family: Inter;
+font-size: 20px !important;
+font-weight: 600 !important;
+line-height: 38.73px;
+border: 2px solid #EC981F !important;
+background-color: white !important;
+color: #4E4E4E !important;
+border-radius: 30px !important;
+  }
+  .allproject-row{
+    text-align: center;
+    align-items: center;
+    margin-top: 5rem !important;
+    margin-bottom: 3rem !important;
+  }

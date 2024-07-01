@@ -1,0 +1,39 @@
+.our-project{
+    font-family: Inter;
+font-size: 46px;
+font-weight: 700;
+line-height: 70.18px;
+color: #00AFEF;
+}
+.arrow-image{
+    width: 60%;
+    height: 100%;
+    margin-top: -1.6rem;
+     /* transform: rotate(-3deg); */
+     margin-left: 4rem;
+}
+.long-paragraph{
+    font-family: Inter;
+font-size: 19px;
+font-weight: 400;
+line-height: 28.73px;
+color: #1E1E1E;
+text-align: justify;
+}
+
+@media (max-width: 1024px) {
+    .long-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.73px;
+    color: #1E1E1E;
+    text-align: justify;
+    }
+    .our-project{
+        font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.18px;
+    color: #00AFEF;
+    } 
+} 
