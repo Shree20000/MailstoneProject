@@ -1,15 +1,15 @@
 import React from "react";
 import { Button, Card, Col, Row } from "react-bootstrap";
 import "./CardComp.css";
-export default function CardComp() {
+export default function CardComp({ projectno, happy }) {
   return (
     <>
       <Card className="card-width">
         <Row>
-          <Col id="col2000">200+</Col>
+          <Col id="col2000">{projectno}</Col>
         </Row>
         <Row>
-          <Col id="col2001"> Happy Customers</Col>
+          <Col id="col2001"> {happy}</Col>
         </Row>
         <Row>
           <Col
