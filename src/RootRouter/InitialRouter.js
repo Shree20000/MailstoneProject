@@ -12,5 +12,4 @@ const InitialRouter = () => {
     </>
   );
 };
-
 export default InitialRouter;
