@@ -1,0 +1,96 @@
+.card-page-fluid234{
+    background-image: url('https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719312200/fhlf7bpbeoxvqghqtdpf.png');
+    width: 100%;
+    height: 358px;
+    padding: 3rem;
+    padding-left: 4rem;
+}
+.logo2{
+    height: 51px;
+    width: 110px;
+}
+.logo2class{
+    margin-left: 5rem;
+    color: white;
+    
+}
+.logo2class3{
+    margin-left: 5rem;
+}
+.logo2row{
+    margin-top: 3rem !important;
+}
+.logo2row2{
+  margin-top: 1rem !important;
+}
+.companyclass{
+    margin-top: 3rem !important;
+}
+.logo2class1{
+    color: white;
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 30px;
+
+}
+.class12345{
+    margin-top: 0.3rem !important;
+}
+.companyclass23{
+    margin-top: 3rem !important;
+}
+.hr-tag-hrr{
+    /* color: white !important; */
+    border: 1px solid #FEFEFE;
+    font-weight: bold;
+}
+.codekartpvt{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+color: 
+#F0F0F0;
+}
+@media (max-width: 767px) {
+    .card-page-fluid234{
+        height: 578px;
+        padding: 1rem;
+        padding-left: 1rem;
+    }
+  }
+  @media (max-width: 767px) {
+    .logo2class{
+        margin-left: 1rem;
+    }
+  }
+  @media (max-width: 767px) {
+    .logo2class3{
+        margin-left: 1rem;
+    }
+  }
+  @media (max-width: 767px) {
+    .companyclass{
+        margin-top: 5.5rem !important;
+    }
+  }
+  @media (max-width: 767px) {
+    .companyclass23{
+        margin-top: 2rem !important;
+        margin-left: 0.5rem;
+        text-align: left;
+        align-items: left;
+    }
+    
+  }
+  @media (max-width: 767px) {
+    .logo2class1{
+        color: white;
+        font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+    }
+    
+  }
