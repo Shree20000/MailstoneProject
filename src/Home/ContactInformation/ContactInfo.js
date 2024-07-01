@@ -104,7 +104,7 @@ const ContactInfo = () => {
       <Row>
         <HorizontalLine />
       </Row>
-      <Row>
+      <Row className="imageContainerTop">
         <BiggerCard
           headername="Co-Working Space"
           buttonname="Commercial"
@@ -124,10 +124,8 @@ const ContactInfo = () => {
             environmentally friendly"
         />
       </Row>
-      <Row>
-        <HorizontalLine />
-      </Row>
-      <Row>
+
+      <Row className="imageContainer">
         <SecondSectionSmall
           headername="Elegant Living Rooms"
           buttonname="Residentials"
@@ -141,11 +139,11 @@ const ContactInfo = () => {
           contained="Our innovative office spaces are designed to enhance productivity and foster creativity. This project highlights our expertise in creating functional, aesthetically pleasing work environments that cater to modern business needs."
         />
       </Row>
-      <Row>
+      {/* <Row>
         <HorizontalLine />
-      </Row>
+      </Row> */}
 
-      <Row>
+      <Row className="imageContainer">
         <BiggerCard
           headername="UPVC Windows and Sliding Doors"
           buttonname="Fabrications"
