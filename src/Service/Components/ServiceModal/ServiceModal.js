@@ -13,7 +13,11 @@ export default function ServiceModal(props) {
               <Col className="modalclosecross">
                 <RxCross2
                   onClick={props.onHide}
-                  style={{ fontWeight: "bold", fontSize: "18px" }}
+                  style={{
+                    fontWeight: "bold",
+                    fontSize: "18px",
+                    cursor: "pointer",
+                  }}
                 />
               </Col>
             </Row>
