@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from "react";
-import Footer from "../GlobalComponent/Footer/Footer";
+// import Footer from "../GlobalComponent/Footer/Footer";
 
 const MordernHouse = lazy(() =>
   import("./Components/MordernHouse/MordernHouse")
@@ -23,7 +23,7 @@ export default function Service() {
       <Suspense fallback={<div>Loading...</div>}>
         <Commercial />
       </Suspense>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
