@@ -22,19 +22,19 @@ function JbsMiddlePage() {
           </Col>
         </Row>
         <Row>
-          <Col md={4} lg={4} className="">
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912322/wpl4zxswmqigp7lostpf.png"
             />
           </Col>
-          <Col md={4} lg={4}>
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912322/dtsn5d783ymcglbp3vsy.png"
             />
           </Col>
-          <Col md={4} lg={4}>
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912328/pivto4zoap5tzmf3zmjj.png"
@@ -42,19 +42,19 @@ function JbsMiddlePage() {
           </Col>
         </Row>
         <Row>
-          <Col md={4} lg={4} className="">
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912317/bwqgogapsauxl9thy7vr.png"
             />
           </Col>
-          <Col md={4} lg={4}>
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912325/je8wiskr5drw7de5lfkg.png"
             />
           </Col>
-          <Col md={4} lg={4}>
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912329/mqdi7x9zdt1gbkecx9q8.png"
@@ -62,19 +62,19 @@ function JbsMiddlePage() {
           </Col>
         </Row>
         <Row>
-          <Col md={4} lg={4} className="">
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912317/quuy6ohhugjry0inw2ws.png"
             />
           </Col>
-          <Col md={4} lg={4}>
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912324/qlwjzfzhged7x9zwtfto.png"
             />
           </Col>
-          <Col md={4} lg={4}>
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912325/ssi8llzmdwkl1keqqtmi.png"
@@ -82,19 +82,19 @@ function JbsMiddlePage() {
           </Col>
         </Row>
         <Row>
-          <Col md={4} lg={4} className="">
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912319/dclmbqcscnomuyh4tnii.png"
             />
           </Col>
-          <Col md={4} lg={4}>
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912324/ixnj9hcjiuw9d7sae6j4.png"
             />
           </Col>
-          <Col md={4} lg={4}>
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912329/wgjpiuwhbjvyrniutrzt.png"
@@ -102,19 +102,19 @@ function JbsMiddlePage() {
           </Col>
         </Row>
         <Row>
-          <Col md={4} lg={4} className="">
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912320/lcnyufpmqu8px7qhgxvt.png"
             />
           </Col>
-          <Col md={4} lg={4}>
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912317/gkxzcxl0wss63odowdcn.png"
             />
           </Col>
-          <Col md={4} lg={4}>
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912326/ueercyttbinfzeoau06b.png"
@@ -122,39 +122,39 @@ function JbsMiddlePage() {
           </Col>
         </Row>
         <Row>
-          <Col md={4} lg={4} className="">
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912322/twjr4u5oxdavepx0q5bi.png"
             />
           </Col>
-          <Col md={4} lg={4}>
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912317/npzvvh4lr0ssg6uccfdl.png"
             />
           </Col>
-          <Col md={4} lg={4}>
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912327/wk0r0uohdrdzenrenbpu.png"
             />
           </Col>
         </Row>
-        <Row>
-          <Col md={4} lg={4} className="">
+        <Row className="jbs-project-last-row">
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912322/k9kane5hwlangdvatuks.png"
             />
           </Col>
-          <Col md={4} lg={4}>
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912320/nt7yg7tlebfvu3n6bwwe.png"
             />
           </Col>
-          <Col md={4} lg={4}>
+          <Col md={4} lg={4} className="jbs-image-gap">
             <Image
               className="jbs-project-img"
               src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912328/gq5anudkh6y099w9lgeq.png"

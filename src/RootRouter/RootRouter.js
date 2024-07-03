@@ -24,7 +24,7 @@ const RootRouter = () => {
             <Route path="/jbs-home" element={<JbsHome />} />
             <Route path="/jbs-work" element={<JbsMainWork />} />
             <Route path="/jbs-project" element={<Project />} />
-            <Route path="/jbs-aboutUs" element={<AboutUs />} />
+            <Route path="/jbs-aboutUs" element={<AboutUs />} /> */}
           </Routes>
           <JbsFooter />
         </>

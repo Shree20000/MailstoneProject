@@ -1,0 +1,85 @@
+.background-image {
+    width: 100%;
+    height: 600px;
+    position: relative;
+  }
+  
+  .centered-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 33rem;
+    padding: 2.5rem;
+    z-index: 1; 
+    margin-top: -19rem;
+  }
+  
+  .jbs-placeholder {
+    border: none !important;
+    outline: transparent !important;
+    box-shadow: none !important;
+  }
+  
+  .jbs-placeholder::placeholder {
+    color: #A8A4A3;
+    opacity: 1;
+    font-family: Noto Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17.69px;
+    padding: 0;
+  }
+  
+  .meetyou {
+    font-family: Noto Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.24px;
+    letter-spacing: 0.07rem;
+    color: #251C1A;
+    margin-left: 0.7rem;
+  }
+  .message-button{
+    background-color: #DC2329 !important;
+    font-family: Noto Sans !important;
+font-size: 13px !important;
+font-weight: 700;
+line-height: 21.79px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+border: none !important;
+border-radius: 0 !important;
+
+  }
+  .bound-checkbox{
+    font-family: Noto Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 21.79px;
+color: #251C1A;
+
+  }
+  .underline-12{
+    border: 0.02px solid black !important;
+    width: 93%;
+    margin-top: -1rem;
+    margin-left: 0.7rem;
+  }
+  @media (max-width: 767px) {
+    .centered-card {
+        width: 19.3rem;
+        padding: 0.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+      
+      .underline-12{
+        border: 0.02px solid black !important;
+        width: 80%;
+        margin-top: -1rem;
+        margin-left: 0.7rem;
+        margin-bottom: 0.5rem;
+      }
+  }
+  
