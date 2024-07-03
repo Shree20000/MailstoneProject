@@ -7,6 +7,7 @@ import AboutUs from "../AboutUs/AboutUs";
 import MainNavBar from "../GlobalComponent/MainNavBar.js/MainNavBar";
 import Footer from "../GlobalComponent/Footer/Footer";
 import { useLocation } from "react-router-dom";
+import JbsHome from "../JbsFolder/JbsHome/JbsHome";
 const RootRouter = () => {
   const location = useLocation();
   // console.log(location.pathname.split("/"));
@@ -15,14 +16,14 @@ const RootRouter = () => {
       {location?.pathname.startsWith("/jbs") ? (
         <>
           {/* only for jbs routes */}
-          <MainNavBar />
+          {/* <MainNavBar /> */}
           <Routes>
-            <Route path="/jbs" element={<Home />} />
-            <Route path="/jbs-service" element={<Service />} />
+            <Route path="/jbs" element={<JbsHome />} />
+            {/* <Route path="/jbs-service" element={<Service />} />
             <Route path="/jbs-project" element={<Project />} />
-            <Route path="/jbs-aboutUs" element={<AboutUs />} />
+            <Route path="/jbs-aboutUs" element={<AboutUs />} /> */}
           </Routes>
-          <Footer />
+          {/* <Footer /> */}
         </>
       ) : (
         <>
