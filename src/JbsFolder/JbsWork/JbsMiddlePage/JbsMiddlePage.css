@@ -1,5 +1,5 @@
 .jbs-project-heading {
-  font-family: 'Noto Sans';
+  font-family: "Noto Sans";
   font-size: 180%;
   font-weight: 600;
   line-height: 60px;
@@ -7,7 +7,7 @@
   margin-top: 3rem !important;
 }
 .jbs-project-para {
-  font-family: 'Noto Sans';
+  font-family: "Noto Sans";
   font-size: 130%;
   font-weight: 400;
   line-height: 35px;
@@ -17,5 +17,11 @@
   width: 100% !important;
   height: 300px !important;
   object-fit: cover !important;
-  margin-top: 1.5rem !important;
+  margin-top: 3rem !important;
+}
+.jbs-project-last-row {
+  margin-bottom: 8rem;
+}
+.jbs-image-gap {
+  padding: 0 8px !important;
 }

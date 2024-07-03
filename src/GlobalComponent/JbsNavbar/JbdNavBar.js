@@ -1,11 +1,12 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "./JbsNavBar.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { useState } from "react";
 
 const JbsNavBar = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   const [expanded, setExpanded] = useState(false);
 
   const handleNavClick = (path) => {
@@ -35,19 +36,25 @@ const JbsNavBar = () => {
         >
           <Nav className="mx-auto">
             <Nav.Link
-              className="jbsnavbarcomponent"
+              className={`jbsnavbarcomponent ${
+                location.pathname === "/jbs-home" ? "active" : ""
+              }`}
               onClick={() => handleNavClick("/jbs-home")}
             >
               Home
             </Nav.Link>
             <Nav.Link
-              className="jbsnavbarcomponent"
+              className={`jbsnavbarcomponent ${
+                location.pathname === "/jbs-work" ? "active" : ""
+              }`}
               onClick={() => handleNavClick("/jbs-work")}
             >
               Work
             </Nav.Link>
             <Nav.Link
-              className="jbsnavbarcomponent"
+              className={`jbsnavbarcomponent ${
+                location.pathname === "/jbs-AboutUs" ? "active" : ""
+              }`}
               onClick={() => handleNavClick("/jbs-AboutUs")}
             >
               About&nbsp;Us

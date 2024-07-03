@@ -75,9 +75,11 @@
 .navbar-toggler {
   margin-left: auto;
 }
-
+/* .basic-navbar-nav {
+  display: flex;
+} */
 .mainnavBarButton {
-  border: 3px solid #EC981F !important;
+  border: 3px solid #ec981f !important;
   padding: 8px !important;
   border-radius: 23px !important;
   background-color: white !important;
@@ -85,8 +87,9 @@
   padding-right: 18px !important;
   font-family: Roboto !important;
   font-weight: 500 !important;
-  color: #0C3F78 !important;
+  color: #0c3f78 !important;
   white-space: nowrap !important;
+  /* display: flex; */
 }
 
 .MainnNavBarButtons {
@@ -101,6 +104,18 @@
 .MainnNavBarButtons .nav-link {
   white-space: nowrap !important;
   padding: 0.5rem 0.75rem !important;
+  position: relative;
+}
+
+.MainnNavBarButtons .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 3px;
+  width: 100%;
+  background-color: #0c3f78;
+  transition: width 0.3s ease;
 }
 
 @media (max-width: 576px) {
@@ -113,6 +128,18 @@
   .MainnNavBarButtons .nav-link {
     padding: 0.25rem 0.5rem !important;
   }
+  /* .mainnavBarButton {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  } */
+  /* .basic-navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+  } */
 }
 
 @media (max-width: 768px) {
