@@ -1,5 +1,6 @@
 import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+import LazyLoad from "react-lazyload";
 import "./JbsCard.css";
 
 export default function JbsCard() {
@@ -25,31 +26,47 @@ export default function JbsCard() {
                 </li>
               </ul>
             </div>
-            <Image
-              src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719915883/bmsugma7zsv99zwsdynf.png"
-              className="image4567"
-            />
+            <LazyLoad height={200} offset={100} once>
+              <img
+                src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719915883/bmsugma7zsv99zwsdynf.png"
+                className="image4567"
+                loading="lazy"
+                alt="JBS Interior Project"
+              />
+            </LazyLoad>
           </Col>
           <Col md={12} lg={5} xs={12}>
-            <Image
-              src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719905361/pblrx0zwl6vbbxnnpa50.png"
-              className="image14567"
-            />
+            <LazyLoad height={200} offset={100} once>
+              <img
+                src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719905361/pblrx0zwl6vbbxnnpa50.png"
+                className="image14567"
+                loading="lazy"
+                alt="JBS Interior Material"
+              />
+            </LazyLoad>
           </Col>
         </Row>
         <Row className="lastimage-row">
           <Col md={12} lg={5} xs={12}>
-            <Image
-              src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719985876/rohpgzcaluxvidncxqff.png"
-              className="image14567"
-            />
+            <LazyLoad height={200} offset={100} once>
+              <img
+                src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719985876/rohpgzcaluxvidncxqff.png"
+                className="image14567"
+                loading="lazy"
+                alt="JBS Interior Partnership"
+              />
+            </LazyLoad>
           </Col>
           <Col md={12} lg={7} xs={12} className="final-coll">
             <div>
-              <Image
-                src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719985967/ypr1qa0g6h67vzupbrlx.png"
-                className="image4567"
-              />
+              <LazyLoad height={200} offset={100} once>
+                <img
+                  src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719985967/ypr1qa0g6h67vzupbrlx.png"
+                  className="image4567"
+                  loading="lazy"
+                  alt="Contact JBS Interior"
+                />
+              </LazyLoad>
               <div className="text-overlayy123456">
                 <div className="contact-ussss">Contact us</div>
                 <div className="welove">

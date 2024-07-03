@@ -1,19 +1,23 @@
 .jbs-mainpage-heading {
-  font-family: Noto Sans;
+  font-family: "Noto Sans";
   font-size: 30px;
   font-weight: 700;
   line-height: 65.38px;
-  /* text-align: right; */
+  border-bottom: 2px solid black;
+}
+.jbs-mainpage-heading-col {
+  margin: 2rem 0 !important;
 }
 .jbs-mainpage-images {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 2rem !important;
 }
 
 .jbs-mainpage-img2 {
   background-image: url("https://res.cloudinary.com/drny4cbec/image/upload/v1719912324/pe3shhkgqx5fxfjy2oji.png");
-  height: 100vh;
+  height: 700px;
+  width: 100%;
   background-size: cover;
   border-radius: 24px;
   display: flex;
@@ -23,19 +27,23 @@
   font-size: 150%;
   font-weight: 500;
   text-align: justify;
-  padding: 0 5rem;
+  margin: 1rem;
+  padding: 0 50px !important;
 }
-.jbsmainpagefirstimage {
+.jbs-mainpage-img1 {
+  background-image: url("https://res.cloudinary.com/drny4cbec/image/upload/v1719912327/unoveqw6inqnk42yallr.png");
   width: 100%;
-  height: 82%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
   object-fit: cover;
-  overflow: hidden;
   border-radius: 24px;
+  margin: 1rem;
 }
 
-.jbsfirstimagecontainer {
+/* .jbsfirstimagecontainer {
   height: fit-content !important;
-}
+} */
 @media only screen and (max-width: 767px) {
   .jbs-mainpage-img1 {
     height: 500px;
@@ -43,6 +51,15 @@
   .jbs-mainpage-img2 {
     height: 500px;
     font-size: 100%;
+    padding: 0 50px !important;
     /* margin-top: 0.5rem !important; */
+  }
+  .jbs-mainpage-images {
+    padding: 0 20px;
+  }
+}
+@media only screen and (min-width: 766px) and (max-width: 992px) {
+  .jbs-mainpage-img2 {
+    padding: 0 12px !important;
   }
 }

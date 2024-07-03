@@ -1,68 +1,91 @@
-.mainJbsNavComponent{
-    display: flex;
-    justify-content: space-between;
+.mainJbsNavComponent {
+  display: flex;
+  justify-content: space-between;
 }
 .JbsNavBarButton {
-    border: 3px solid #DC2329;
-    padding: 8px;
-    border-radius: 23px;
-    background-color: white;
-    padding-left: 18px;
-    padding-right: 18px;
-    font-family: Roboto;
-    font-weight: 500;
-    color: #0C3F78;
+  border: 3px solid #dc2329;
+  padding: 8px;
+  border-radius: 23px;
+  background-color: white;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #0c3f78;
 }
-.jbsmainNavBar{
-    padding: 0;
+.jbsmainNavBar {
+  padding: 0;
 }
-.jbsmainContainer{
-    padding: 0;
+.jbsmainContainer {
+  padding: 0;
 }
 .navbar-nav {
-    flex-grow: 0;
-  }
-  
-  .navbar-collapse {
-    flex-grow: 1;
-  }
+  flex-grow: 0;
+}
 
-  .JbsNavBarButton {
-    white-space: nowrap;
-  }
-  .jbsnavbarcomponent{
-    font-weight: 500 !important;
-    color: #545454 !important;
-    font-family: 'Roboto';
-  }
+.navbar-collapse {
+  flex-grow: 1;
+}
+
+.JbsNavBarButton {
+  white-space: nowrap;
+}
+.jbsnavbarcomponent {
+  font-weight: 500 !important;
+  color: #545454 !important;
+  font-family: "Roboto";
+  position: relative;
+}
+.jbsnavbarcomponent.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 3px;
+  width: 100%;
+  background-color: #dc2329;
+}
 
 .JbsNavBarImage {
-    width: 100%;  
-    max-width: 80px;
-    height: auto;
-  }
+  width: 100%;
+  max-width: 80px;
+  height: auto;
+}
 
+.JbsNavBarImage {
+  width: 100px;
+}
+.justify-content-between {
+  display: flex;
+}
+@media (min-width: 600px) {
+  .mx-auto.navbar-nav {
+    width: 24%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 576px) {
   .JbsNavBarImage {
-    width: 100px; 
+    max-width: 60px;
   }
-
-  @media (min-width: 600px) {
-    .mx-auto.navbar-nav {
-        width: 24%;
-        display: flex;
-        justify-content: space-between;
-    }
 }
-  
-  @media (max-width: 576px) {
-    .JbsNavBarImage {
-      max-width: 60px; 
-    }
+@media (max-width: 575px) {
+  .navbar-nav {
+    margin: 0 !important;
+    display: flex;
+    width: 100%;
+    align-items: end;
+  }
+  .justify-content-between {
+    display: flex;
+    flex-direction: column;
+    align-items: end !important;
+  }
 }
-  
 @media (min-width: 650px) and (max-width: 1000px) {
-  .jbsmodifynav{
-      width: 30%;
+  .jbsmodifynav {
+    width: 30%;
   }
- 
 }

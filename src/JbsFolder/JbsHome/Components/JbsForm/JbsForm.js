@@ -12,7 +12,9 @@ import "./JbsForm.css";
 
 export default function JbsForm() {
   return (
-    <Container style={{ marginTop: "2rem", position: "relative" }}>
+    <Container
+      style={{ marginTop: "2rem", position: "relative", marginBottom: "0" }}
+    >
       <Image
         src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719906012/a3mjbxzszkqbbnrnbanm.png"
         className="background-image"

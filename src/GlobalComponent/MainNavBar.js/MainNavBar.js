@@ -1,11 +1,12 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "./MainNavBar.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { useState } from "react";
 
 const MainNavBar = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   const [expanded, setExpanded] = useState(false);
 
   const handleNavClick = (path) => {
@@ -31,14 +32,28 @@ const MainNavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto MainnNavBarButtons">
-            <Nav.Link onClick={() => handleNavClick("/")}>Home</Nav.Link>
-            <Nav.Link onClick={() => handleNavClick("/service")}>
+            <Nav.Link
+              onClick={() => handleNavClick("/")}
+              className={location.pathname === "/" ? "active" : ""}
+            >
+              Home
+            </Nav.Link>
+            <Nav.Link
+              onClick={() => handleNavClick("/service")}
+              className={location.pathname === "/service" ? "active" : ""}
+            >
               Services
             </Nav.Link>
-            <Nav.Link onClick={() => handleNavClick("/project")}>
+            <Nav.Link
+              onClick={() => handleNavClick("/project")}
+              className={location.pathname === "/project" ? "active" : ""}
+            >
               Projects
             </Nav.Link>
-            <Nav.Link onClick={() => handleNavClick("/AboutUs")}>
+            <Nav.Link
+              onClick={() => handleNavClick("/AboutUs")}
+              className={location.pathname === "/AboutUs" ? "active" : ""}
+            >
               About&nbsp;Us
             </Nav.Link>
           </Nav>

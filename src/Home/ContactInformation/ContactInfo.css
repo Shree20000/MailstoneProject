@@ -254,5 +254,9 @@ button.projectbutton {
         padding-left: 5px !important;
         padding-right: 5px !important;
     }
+
+    .projectbuttonrow {
+        margin-top: 1.3rem !important;
+    }
   }
   

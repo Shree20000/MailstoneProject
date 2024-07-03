@@ -1,17 +1,28 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import { Container } from "react-bootstrap";
-import JbsTopHomePage from "./JbsTopHomePage/JbsTopHomePage";
-import FeaturedProjectjbs from "./Components/FeaturedProjectjbs/FeaturedProjectjbs";
-import JbsCard from "./Components/JbsCard/JbsCard";
-import JbsForm from "./Components/JbsForm/JbsForm";
+
+const JbsTopHomePage = lazy(() => import("./JbsTopHomePage/JbsTopHomePage"));
+const FeaturedProjectjbs = lazy(() =>
+  import("./Components/FeaturedProjectjbs/FeaturedProjectjbs")
+);
+const JbsCard = lazy(() => import("./Components/JbsCard/JbsCard"));
+const JbsForm = lazy(() => import("./Components/JbsForm/JbsForm"));
 
 const JbsHome = () => {
   return (
     <>
-      <JbsTopHomePage />
-      <FeaturedProjectjbs />
-      <JbsCard />
-      <JbsForm />
+      <Suspense fallback={<div>Loading...</div>}>
+        <JbsTopHomePage />
+      </Suspense>
+      <Suspense fallback={<div>Loading...</div>}>
+        <FeaturedProjectjbs />
+      </Suspense>
+      <Suspense fallback={<div>Loading...</div>}>
+        <JbsCard />
+      </Suspense>
+      <Suspense fallback={<div>Loading...</div>}>
+        <JbsForm />
+      </Suspense>
     </>
   );
 };
