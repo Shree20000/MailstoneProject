@@ -1,0 +1,48 @@
+.jbs-mainpage-heading {
+  font-family: Noto Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 65.38px;
+  /* text-align: right; */
+}
+.jbs-mainpage-images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem !important;
+}
+
+.jbs-mainpage-img2 {
+  background-image: url("https://res.cloudinary.com/drny4cbec/image/upload/v1719912324/pe3shhkgqx5fxfjy2oji.png");
+  height: 100vh;
+  background-size: cover;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 150%;
+  font-weight: 500;
+  text-align: justify;
+  padding: 0 5rem;
+}
+.jbsmainpagefirstimage {
+  width: 100%;
+  height: 82%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.jbsfirstimagecontainer {
+  height: fit-content !important;
+}
+@media only screen and (max-width: 767px) {
+  .jbs-mainpage-img1 {
+    height: 500px;
+  }
+  .jbs-mainpage-img2 {
+    height: 500px;
+    font-size: 100%;
+    /* margin-top: 0.5rem !important; */
+  }
+}

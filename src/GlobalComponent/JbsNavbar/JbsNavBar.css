@@ -1,0 +1,68 @@
+.mainJbsNavComponent{
+    display: flex;
+    justify-content: space-between;
+}
+.JbsNavBarButton {
+    border: 3px solid #DC2329;
+    padding: 8px;
+    border-radius: 23px;
+    background-color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #0C3F78;
+}
+.jbsmainNavBar{
+    padding: 0;
+}
+.jbsmainContainer{
+    padding: 0;
+}
+.navbar-nav {
+    flex-grow: 0;
+  }
+  
+  .navbar-collapse {
+    flex-grow: 1;
+  }
+
+  .JbsNavBarButton {
+    white-space: nowrap;
+  }
+  .jbsnavbarcomponent{
+    font-weight: 500 !important;
+    color: #545454 !important;
+    font-family: 'Roboto';
+  }
+
+.JbsNavBarImage {
+    width: 100%;  
+    max-width: 80px;
+    height: auto;
+  }
+
+  .JbsNavBarImage {
+    width: 100px; 
+  }
+
+  @media (min-width: 600px) {
+    .mx-auto.navbar-nav {
+        width: 24%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+  
+  @media (max-width: 576px) {
+    .JbsNavBarImage {
+      max-width: 60px; 
+    }
+}
+  
+@media (min-width: 650px) and (max-width: 1000px) {
+  .jbsmodifynav{
+      width: 30%;
+  }
+ 
+}
