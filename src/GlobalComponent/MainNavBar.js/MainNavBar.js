@@ -1,35 +1,56 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "./MainNavBar.css";
-import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const MainNavBar = () => {
   const navigate = useNavigate();
+  const [expanded, setExpanded] = useState(false);
+
+  const handleNavClick = (path) => {
+    setExpanded(false);
+    navigate(path);
+  };
+
   return (
-    <Container className="NavBarContainer">
-      <Navbar expand="sm" className="mainContainerNavComponent">
+    <Navbar
+      expand="sm"
+      className="mainnnContainerNavComponent"
+      expanded={expanded}
+      onToggle={(expanded) => setExpanded(expanded)}
+    >
+      <Container>
         <Navbar.Brand href="#">
           <img
             src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719306812/mailStone/bu7trgfdi4qyxyelonlc.png"
             alt=""
-            className="MainNavBarImage"
+            className="MainnNavBarImage"
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="MainNavBarButtons">
-            <Nav.Link onClick={() => navigate("/")}>Home</Nav.Link>
-            <Nav.Link onClick={() => navigate("/service")}>Services</Nav.Link>
-            <Nav.Link onClick={() => navigate("/project")}>Projects</Nav.Link>
-            <Nav.Link onClick={() => navigate("/AboutUs")}>About Us</Nav.Link>
+          <Nav className="mx-auto MainnNavBarButtons">
+            <Nav.Link onClick={() => handleNavClick("/")}>Home</Nav.Link>
+            <Nav.Link onClick={() => handleNavClick("/service")}>
+              Services
+            </Nav.Link>
+            <Nav.Link onClick={() => handleNavClick("/project")}>
+              Projects
+            </Nav.Link>
+            <Nav.Link onClick={() => handleNavClick("/AboutUs")}>
+              About&nbsp;Us
+            </Nav.Link>
           </Nav>
-          <button className="mainnavBarButton" onClick={() => navigate("/jbs")}>
+          <button
+            className="mainnavBarButton"
+            onClick={() => handleNavClick("/jbs-home")}
+          >
             JBS Interior
           </button>
         </Navbar.Collapse>
-      </Navbar>
-    </Container>
+      </Container>
+    </Navbar>
   );
 };
 

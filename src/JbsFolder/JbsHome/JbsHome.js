@@ -1,14 +1,19 @@
 import React from "react";
+import { Container } from "react-bootstrap";
+import JbsTopHomePage from "./JbsTopHomePage/JbsTopHomePage";
 import FeaturedProjectjbs from "./Components/FeaturedProjectjbs/FeaturedProjectjbs";
 import JbsCard from "./Components/JbsCard/JbsCard";
 import JbsForm from "./Components/JbsForm/JbsForm";
 
-export default function JbsHome() {
+const JbsHome = () => {
   return (
-    <div>
+    <>
+      <JbsTopHomePage />
       <FeaturedProjectjbs />
       <JbsCard />
       <JbsForm />
-    </div>
+    </>
   );
-}
+};
+
+export default JbsHome;

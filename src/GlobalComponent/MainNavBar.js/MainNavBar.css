@@ -1,23 +1,20 @@
-
-  .MainNavBarImage {
-    width: 100%;
-    max-width: 80px;
-    height: auto;
+/* 
+  .MainnNavBarImage {
+    width: 100% !important;
+    max-width: 80px !important;
+    height: auto !important;
   }
   
   .NavBarContainer {
     padding: 0;
   }
   
-  .mainContainerNavComponent {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  .mainnnContainerNavComponent {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
   }
   
-  .MainNavBarImage {
-    width: 100px; 
-  }
   
  
   
@@ -25,32 +22,103 @@
     margin-left: auto;
   }
 .mainnavBarButton {
-    border: 3px solid #EC981F;
-    padding: 8px;
-    border-radius: 23px;
-    background-color: white;
-    padding-left: 18px;
-    padding-right: 18px;
-    font-family: Roboto;
-    font-weight: 500;
-    color: #0C3F78;
+    border: 3px solid #EC981F !important;
+    padding: 8px !important;
+    border-radius: 23px !important;
+    background-color: white !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    font-family: Roboto !important ;
+    font-weight: 500 !important;
+    color: #0C3F78 !important;
 }
   
 
-.MainNavBarButtons {
-  display: flex;
-  justify-content: center;
-  flex-grow: 1;
-  font-family: "Inter";
-  font-weight: 700;
-  gap: 2rem; /* Default gap */
+.MainnNavBarButtons {
+  display: flex !important;
+  justify-content: center !important;
+  flex-grow: 1 !important;
+  font-family: "Inter" !important;
+  font-weight: 700 !important;
+  gap: 2rem !important; 
 }
+
+
 
 @media (max-width: 576px) {
   .MainNavBarImage {
-    max-width: 60px; 
+    max-width: 60px !important; 
   }
-  .MainNavBarButtons {
-    gap: 0.5rem; 
+  .MainnNavBarButtons {
+    gap: 0.5rem !important; 
+  }
+}
+
+ */
+
+ .MainnNavBarImage {
+  width: 100% !important;
+  max-width: 80px !important;
+  height: auto !important;
+}
+
+.NavBarContainer {
+  padding: 0;
+}
+
+.mainnnContainerNavComponent {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.mainnavBarButton {
+  border: 3px solid #EC981F !important;
+  padding: 8px !important;
+  border-radius: 23px !important;
+  background-color: white !important;
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+  font-family: Roboto !important;
+  font-weight: 500 !important;
+  color: #0C3F78 !important;
+  white-space: nowrap !important;
+}
+
+.MainnNavBarButtons {
+  display: flex !important;
+  justify-content: center !important;
+  flex-grow: 1 !important;
+  font-family: "Inter" !important;
+  font-weight: 700 !important;
+  gap: 2rem !important;
+}
+
+.MainnNavBarButtons .nav-link {
+  white-space: nowrap !important;
+  padding: 0.5rem 0.75rem !important;
+}
+
+@media (max-width: 576px) {
+  .MainnNavBarImage {
+    max-width: 60px !important;
+  }
+  .MainnNavBarButtons {
+    gap: 0.5rem !important;
+  }
+  .MainnNavBarButtons .nav-link {
+    padding: 0.25rem 0.5rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .MainnNavBarButtons {
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    justify-content: flex-start !important;
   }
 }
