@@ -1,6 +1,7 @@
-/* .relative-container345 {
+.relative-container345 {
   position: relative;
 }
+
 .text-overlayy123 {
   position: absolute;
   top: 16%;
@@ -9,6 +10,7 @@
   z-index: 1;
   right: 20%;
 }
+
 .choose {
   font-family: Noto Sans;
   font-size: 28px;
@@ -16,6 +18,7 @@
   line-height: 25.38px;
   color: white;
 }
+
 .overlist {
   font-family: Noto Sans;
   font-size: 16px;
@@ -24,6 +27,7 @@
   color: white;
   margin-top: 2rem;
 }
+
 .text-overlayy123456 {
   position: absolute;
   top: 20px;
@@ -66,18 +70,21 @@
 
 .final-coll {
   position: relative;
-  margin-left: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .image4567 {
   height: 590px;
-  width: 90%;
+  width: 570px;
 }
 
 .image14567 {
   height: 590px;
-  width: 100%;
+  width: 450px;
 }
+
+
 
 @media (max-width: 1024px) and (min-width: 768px) {
   .image4567 {
@@ -180,58 +187,125 @@
     justify-content: flex-start;
   }
 }
-@media  (width: 1024px) {
+
+@media (width: 1024px) {
   .image14567 {
     height: 500px;
     width: 353px;
     margin-top: 1rem;
   }
+
   .image4567 {
     height: 500px;
     width: 500px;
   }
-} */
-
-
-
-.backkkkkk {
-  background-image: url('https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719915883/bmsugma7zsv99zwsdynf.png');
-  background-size: contain; 
-  background-repeat: no-repeat; 
-  object-fit: cover;
- padding-right: 20rem;
-  
 }
 
-.text-overlayy123 {
-  padding: 3rem;
-  padding-top: 10rem;
- 
+
+
+
+
+
+
+
+.card-cotainer-background {
+  display: flex !important;
+  gap: 2% !important;
+  width: 100%;
+  height: 100vh;
 }
 
-.choose {
-  font-family: Noto Sans;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 25.38px;
+.card-container-first-image {
+  background-image: url('https://res.cloudinary.com/dbklt3v4d/image/upload/v1720158607/mailStone/Frame_1321316271_tonhsh.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100% !important;
+  height: 95%;
   color: white;
-  margin-top: 7rem;
-  padding-left: 3rem;
+  padding-top: 9%;
+  padding-left: 6%;
+  padding-right: 6%;
+  box-sizing: border-box;
+  border-radius: 15px;
 }
 
-.ullist {
-  margin-top: 4rem;
-  margin-bottom: 8rem;
-}
-
-.overlist {
-  font-family: Noto Sans;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 23.58px;
+.card-container-second-image {
+  background-image: url('https://res.cloudinary.com/dbklt3v4d/image/upload/v1720158668/mailStone/Frame_1321316272_scrmfc.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 86% !important;
+  height: 95%;
   color: white;
-  margin-top: 2rem;
-  margin-right: 0;
-  padding-right: -20rem;
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.card-container-first-image-contaent {
+  color: white;
+  font-family: "Roboto";
+  margin-top: 10%;
+  font-weight: 500;
+}
+
+.card-container-first-image-lis {
+  font-family: 'Roboto';
+}
+
+.card-container-first-image-uls {
+  margin-top: 7%;
+}
+
+.card-container-third-image {
+  background-image: url('https://res.cloudinary.com/dbklt3v4d/image/upload/v1720162289/mailStone/Frame_1321316313_pumxjp.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 86% !important;
+  height: 95%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.card-container-fourth-image {
+  background-image: url('https://res.cloudinary.com/dbklt3v4d/image/upload/v1720166730/mailStone/Frame_1321316271_o0jxy6.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100% !important;
+  height: 95%;
+  color: white;
+  padding-top: 9%;
+  padding-left: 6%;
+  padding-right: 6%;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+
+@media (max-width:550px) {
+  .card-container-second-image {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .card-cotainer-background {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-container-third-image {
+    width: 100% !important;
+    margin-top: 5%;
+  }
 }
