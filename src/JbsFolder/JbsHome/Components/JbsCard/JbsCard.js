@@ -6,7 +6,7 @@ import "./JbsCard.css";
 export default function JbsCard() {
   return (
     <div>
-      <Container style={{ marginTop: "2rem" }}>
+      <Container style={{ marginTop: "4rem" }}>
         <Row>
           <div className="card-cotainer-background">
             <div className="card-container-first-image">
@@ -15,15 +15,15 @@ export default function JbsCard() {
               </h1>
               <div className="card-container-first-image-uls">
                 <ul>
-                  <li className="mt-2 card-container-first-image-lis">
+                  <li className=" card-container-first-image-lis">
                     Over 300 projects completed, serving 200+ satisfied clients,
                     bringing extensive experience to each project.
                   </li>
-                  <li className="mt-2 card-container-first-image-lis">
+                  <li className="card-container-first-image-lis">
                     We prioritize top-tier materials and trusted partnerships
                     for consistently superior project outcomes.
                   </li>
-                  <li className="mt-2 card-container-first-image-lis">
+                  <li className=" card-container-first-image-lis">
                     Transparent communication, attentive listening, and
                     dedication to delivering promises ensure your satisfaction.
                   </li>
@@ -42,15 +42,15 @@ export default function JbsCard() {
               </h1>
               <div className="card-container-first-image-uls">
                 <ul>
-                  <li className="mt-2 card-container-first-image-lis">
+                  <li className=" card-container-first-image-lis">
                     Over 300 projects completed, serving 200+ satisfied clients,
                     bringing extensive experience to each project.
                   </li>
-                  <li className="mt-2 card-container-first-image-lis">
+                  <li className=" card-container-first-image-lis">
                     We prioritize top-tier materials and trusted partnerships
                     for consistently superior project outcomes.
                   </li>
-                  <li className="mt-2 card-container-first-image-lis">
+                  <li className=" card-container-first-image-lis">
                     Transparent communication, attentive listening, and
                     dedication to delivering promises ensure your satisfaction.
                   </li>

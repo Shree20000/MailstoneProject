@@ -254,7 +254,12 @@
 }
 
 .card-container-first-image-lis {
-  font-family: 'Roboto';
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.58px;
+  margin-top: 2rem;
+  
 }
 
 .card-container-first-image-uls {
@@ -309,7 +314,3 @@
     margin-top: 5%;
   }
 }
-
-
-
-
