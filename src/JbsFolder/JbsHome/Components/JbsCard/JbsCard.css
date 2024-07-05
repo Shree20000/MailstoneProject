@@ -1,4 +1,4 @@
-.relative-container345 {
+/* .relative-container345 {
   position: relative;
 }
 .text-overlayy123 {
@@ -66,18 +66,17 @@
 
 .final-coll {
   position: relative;
-  display: flex;
-  justify-content: flex-end;
+  margin-left: 0;
 }
 
 .image4567 {
   height: 590px;
-  width: 570px;
+  width: 90%;
 }
 
 .image14567 {
   height: 590px;
-  width: 450px;
+  width: 100%;
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
@@ -191,4 +190,48 @@
     height: 500px;
     width: 500px;
   }
+} */
+
+
+
+.backkkkkk {
+  background-image: url('https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719915883/bmsugma7zsv99zwsdynf.png');
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  object-fit: cover;
+ padding-right: 20rem;
+  
+}
+
+.text-overlayy123 {
+  padding: 3rem;
+  padding-top: 10rem;
+ 
+}
+
+.choose {
+  font-family: Noto Sans;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 25.38px;
+  color: white;
+  margin-top: 7rem;
+  padding-left: 3rem;
+}
+
+.ullist {
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
+.overlist {
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.58px;
+  color: white;
+  margin-top: 2rem;
+  margin-right: 0;
+  padding-right: -20rem;
+  background-color: blue;
 }
