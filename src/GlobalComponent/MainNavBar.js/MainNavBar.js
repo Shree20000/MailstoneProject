@@ -30,7 +30,10 @@ const MainNavBar = () => {
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse
+          id="basic-navbar-nav"
+          className="justify-content-between"
+        >
           <Nav className="mx-auto MainnNavBarButtons">
             <Nav.Link
               onClick={() => handleNavClick("/")}

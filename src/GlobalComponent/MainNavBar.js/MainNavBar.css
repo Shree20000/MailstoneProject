@@ -1,62 +1,4 @@
-/* 
-  .MainnNavBarImage {
-    width: 100% !important;
-    max-width: 80px !important;
-    height: auto !important;
-  }
-  
-  .NavBarContainer {
-    padding: 0;
-  }
-  
-  .mainnnContainerNavComponent {
-    width: 100% !important;
-    display: flex !important;
-    justify-content: space-between !important;
-  }
-  
-  
- 
-  
-  .navbar-toggler {
-    margin-left: auto;
-  }
-.mainnavBarButton {
-    border: 3px solid #EC981F !important;
-    padding: 8px !important;
-    border-radius: 23px !important;
-    background-color: white !important;
-    padding-left: 18px !important;
-    padding-right: 18px !important;
-    font-family: Roboto !important ;
-    font-weight: 500 !important;
-    color: #0C3F78 !important;
-}
-  
-
-.MainnNavBarButtons {
-  display: flex !important;
-  justify-content: center !important;
-  flex-grow: 1 !important;
-  font-family: "Inter" !important;
-  font-weight: 700 !important;
-  gap: 2rem !important; 
-}
-
-
-
-@media (max-width: 576px) {
-  .MainNavBarImage {
-    max-width: 60px !important; 
-  }
-  .MainnNavBarButtons {
-    gap: 0.5rem !important; 
-  }
-}
-
- */
-
- .MainnNavBarImage {
+.MainnNavBarImage {
   width: 100% !important;
   max-width: 80px !important;
   height: auto !important;
@@ -75,9 +17,7 @@
 .navbar-toggler {
   margin-left: auto;
 }
-/* .basic-navbar-nav {
-  display: flex;
-} */
+
 .mainnavBarButton {
   border: 3px solid #ec981f !important;
   padding: 8px !important;
@@ -89,7 +29,6 @@
   font-weight: 500 !important;
   color: #0c3f78 !important;
   white-space: nowrap !important;
-  /* display: flex; */
 }
 
 .MainnNavBarButtons {
@@ -122,24 +61,14 @@
   .MainnNavBarImage {
     max-width: 60px !important;
   }
+
   .MainnNavBarButtons {
     gap: 0.5rem !important;
   }
+
   .MainnNavBarButtons .nav-link {
     padding: 0.25rem 0.5rem !important;
   }
-  /* .mainnavBarButton {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-  } */
-  /* .basic-navbar-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: end;
-    width: 100%;
-  } */
 }
 
 @media (max-width: 768px) {

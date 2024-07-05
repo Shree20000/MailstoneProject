@@ -2,21 +2,26 @@
   width: 20%;
   height: 100%;
 }
+
 .jbs-footer-left-col {
   display: flex;
   flex-direction: column;
   font-weight: 400;
   font-size: 18px;
 }
+
 .jbs-footer-right-col {
   margin-top: 0 !important;
 }
+
 .jbs-footer-icon-main {
   margin: 1rem 0 !important;
 }
+
 .jbs-footer-content {
   margin-top: 3rem !important;
 }
+
 .jbs-footer-div {
   font-family: Noto Sans;
   font-size: 20px;
@@ -24,24 +29,29 @@
   line-height: 30px;
   text-align: left;
 }
+
 .jbs-footer-span {
   font-weight: 400;
   font-size: 18px;
 }
+
 .jbs-footer-icon {
   margin-right: 20px;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
   padding-bottom: 2px;
 }
+
 .jbs-footer-hr {
   border: 1px solid black;
   margin-bottom: 5px;
 }
+
 .jbs-footer-last-content {
   text-align: center;
   margin-bottom: 10px;
 }
+
 @media (max-width: 768px) {
   .jbs-footer-right-col {
     margin-top: 5% !important;
