@@ -80,6 +80,8 @@
   width: 450px;
 }
 
+
+
 @media (max-width: 1024px) and (min-width: 768px) {
   .image4567 {
     height: 550px;
@@ -192,3 +194,116 @@
     width: 500px;
   }
 }
+
+
+
+
+
+
+
+
+.card-cotainer-background {
+  display: flex !important;
+  gap: 2% !important;
+  width: 100%;
+  height: 100vh;
+}
+
+.card-container-first-image {
+  background-image: url('https://res.cloudinary.com/dbklt3v4d/image/upload/v1720158607/mailStone/Frame_1321316271_tonhsh.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100% !important;
+  height: 95%;
+  color: white;
+  padding-top: 9%;
+  padding-left: 6%;
+  padding-right: 6%;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.card-container-second-image {
+  background-image: url('https://res.cloudinary.com/dbklt3v4d/image/upload/v1720158668/mailStone/Frame_1321316272_scrmfc.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 86% !important;
+  height: 95%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+.card-container-first-image-contaent{
+  color: white;
+  font-family: "Roboto";
+  margin-top: 10%;
+  font-weight: 500;
+}
+.card-container-first-image-lis{
+  font-family: 'Roboto';
+}
+.card-container-first-image-uls{
+  margin-top: 7%;
+}
+
+.card-container-third-image {
+  background-image: url('https://res.cloudinary.com/dbklt3v4d/image/upload/v1720162289/mailStone/Frame_1321316313_pumxjp.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 86% !important;
+  height: 95%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.card-container-fourth-image {
+  background-image: url('https://res.cloudinary.com/dbklt3v4d/image/upload/v1720166730/mailStone/Frame_1321316271_o0jxy6.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100% !important;
+  height: 95%;
+  color: white;
+  padding-top: 9%;
+  padding-left: 6%;
+  padding-right: 6%;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+
+@media (max-width:550px) {
+  .card-container-second-image{
+    width: 100% !important;
+    height: 100% !important;
+  }
+    .card-cotainer-background {
+      display: flex;
+      flex-direction: column;
+    }
+  .card-container-third-image{
+    width: 100% !important;
+    margin-top: 5%;
+  }
+}
+
+
+
+
+
+
+
+
+
