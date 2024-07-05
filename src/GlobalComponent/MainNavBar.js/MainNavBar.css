@@ -2,6 +2,7 @@
   width: 100% !important;
   max-width: 80px !important;
   height: auto !important;
+ 
 }
 
 .NavBarContainer {
@@ -12,6 +13,11 @@
   width: 100% !important;
   display: flex !important;
   justify-content: space-between !important;
+  /* position: fixed !important;
+  z-index: 100 !important; 
+  top: 0;
+  background-color: #ffffff;  */
+ 
 }
 
 .navbar-toggler {
