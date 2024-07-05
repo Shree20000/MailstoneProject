@@ -1,6 +1,7 @@
 .relative-container345 {
   position: relative;
 }
+
 .text-overlayy123 {
   position: absolute;
   top: 16%;
@@ -9,6 +10,7 @@
   z-index: 1;
   right: 20%;
 }
+
 .choose {
   font-family: Noto Sans;
   font-size: 28px;
@@ -16,6 +18,7 @@
   line-height: 25.38px;
   color: white;
 }
+
 .overlist {
   font-family: Noto Sans;
   font-size: 16px;
@@ -24,6 +27,7 @@
   color: white;
   margin-top: 2rem;
 }
+
 .text-overlayy123456 {
   position: absolute;
   top: 20px;
@@ -183,12 +187,14 @@
     justify-content: flex-start;
   }
 }
-@media  (width: 1024px) {
+
+@media (width: 1024px) {
   .image14567 {
     height: 500px;
     width: 353px;
     margin-top: 1rem;
   }
+
   .image4567 {
     height: 500px;
     width: 500px;
@@ -239,16 +245,19 @@
   box-sizing: border-box;
   border-radius: 15px;
 }
-.card-container-first-image-contaent{
+
+.card-container-first-image-contaent {
   color: white;
   font-family: "Roboto";
   margin-top: 10%;
   font-weight: 500;
 }
-.card-container-first-image-lis{
+
+.card-container-first-image-lis {
   font-family: 'Roboto';
 }
-.card-container-first-image-uls{
+
+.card-container-first-image-uls {
   margin-top: 7%;
 }
 
@@ -285,25 +294,18 @@
 
 
 @media (max-width:550px) {
-  .card-container-second-image{
+  .card-container-second-image {
     width: 100% !important;
     height: 100% !important;
   }
-    .card-cotainer-background {
-      display: flex;
-      flex-direction: column;
-    }
-  .card-container-third-image{
+
+  .card-cotainer-background {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-container-third-image {
     width: 100% !important;
     margin-top: 5%;
   }
 }
-
-
-
-
-
-
-
-
-
