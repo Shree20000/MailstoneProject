@@ -41,10 +41,10 @@ function FeaturedProjectjbs() {
     <div>
       <Container fluid>
         <Row className="slider-row">
-          <Col md={2}>
+          <Col md={2} xs={12}>
             <h1 className="slider-col2">FEATURED PROJECTS</h1>
           </Col>
-          <Col md={8} className="slider-col1">
+          <Col md={8} xs={12} className="slider-col1">
             <div className="slider-container">
               <Slider {...settings}>
                 <div className="slider-slider">
