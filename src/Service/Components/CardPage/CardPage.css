@@ -25,7 +25,7 @@
    }
  }
  
- @media (max-width: 768px) {
+ @media (max-width: 920px) {
    .card-page-fluid {
      padding: 2rem;
      padding-top: 3rem;

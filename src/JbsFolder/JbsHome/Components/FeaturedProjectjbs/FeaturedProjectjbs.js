@@ -27,6 +27,13 @@ function FeaturedProjectjbs() {
           slidesToScroll: 1,
         },
       },
+      {
+        breakpoint: 820,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
     ],
   };
 

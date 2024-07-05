@@ -3,6 +3,7 @@ import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import "./Fabrication.css";
 import { MdArrowOutward } from "react-icons/md";
 import ServiceModal from "../ServiceModal/ServiceModal";
+
 export default function Fabrication({ upvc, buttonup, favimg, longtext }) {
   const [modal1, setModal1] = useState();
   return (

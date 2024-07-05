@@ -35,3 +35,10 @@ border-radius: 0 !important;
         margin-top: 1.3rem;
       } 
   }
+  @media (max-width: 1024px) {
+    .card-width{
+      width: 19rem;
+      padding: 2rem;
+    }
+  }
+  
