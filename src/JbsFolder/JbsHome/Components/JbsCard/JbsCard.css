@@ -181,3 +181,14 @@
     justify-content: flex-start;
   }
 }
+@media  (width: 1024px) {
+  .image14567 {
+    height: 500px;
+    width: 353px;
+    margin-top: 1rem;
+  }
+  .image4567 {
+    height: 500px;
+    width: 500px;
+  }
+}

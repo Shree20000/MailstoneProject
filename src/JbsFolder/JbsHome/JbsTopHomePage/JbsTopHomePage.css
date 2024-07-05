@@ -7,6 +7,10 @@
     object-fit: cover;
     overflow: hidden;
 }
+.buttoncolomn{
+   margin-top: 2.3rem;
+   margin-left: -0.5rem;
+}
 .jbssecondcontainer{
     background-color: #F6EFDC;
     height: 250px;
@@ -225,6 +229,8 @@
     .buttoncolomn{
         display: flex;
         justify-content: center;
+        margin-top: 0;
+        margin-left: 0;
     }
     .topcontainerthirdtext {
         margin-top: 2.5%;
