@@ -2,8 +2,22 @@ import React from "react";
 import "./JbsTopHomePage.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { GoArrowRight } from "react-icons/go";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const JbsTopHomePage = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash === "#about-us") {
+      setTimeout(() => {
+        const aboutUsSection = document.getElementById("about-us");
+        if (aboutUsSection) {
+          aboutUsSection.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    }
+  }, [location]);
   return (
     <>
       <Container className="jbsTopContainer">
@@ -74,7 +88,7 @@ const JbsTopHomePage = () => {
           </div>
         </div>
         <Row className="buttomsrow">
-          <Col sm={12} xs={12} className="buttomfirstcol">
+          <Col sm={12} xs={12} className="buttomfirstcol" id="about-us">
             <p className="buttomfirstcolptag">ABOUT US</p>
             <p className="buttomfirstcolptag">01</p>
           </Col>

@@ -9,9 +9,24 @@ const JbsNavBar = () => {
   const location = useLocation();
   const [expanded, setExpanded] = useState(false);
 
+  // const handleNavClick = (path) => {
+  //   setExpanded(false);
+  //   navigate(path);
+  // };
+
   const handleNavClick = (path) => {
     setExpanded(false);
-    navigate(path);
+    if (path === "/jbs-home#about-us") {
+      navigate("/jbs-home");
+      setTimeout(() => {
+        const aboutUsSection = document.getElementById("about-us");
+        if (aboutUsSection) {
+          aboutUsSection.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    } else {
+      navigate(path);
+    }
   };
 
   return (
@@ -53,9 +68,9 @@ const JbsNavBar = () => {
             </Nav.Link>
             <Nav.Link
               className={`jbsnavbarcomponent ${
-                location.pathname === "/jbs-AboutUs" ? "active" : ""
+                location.pathname === "/jbs-home#about-us" ? "active" : ""
               }`}
-              onClick={() => handleNavClick("/jbs-AboutUs")}
+              onClick={() => handleNavClick("/jbs-home#about-us")}
             >
               About&nbsp;Us
             </Nav.Link>
