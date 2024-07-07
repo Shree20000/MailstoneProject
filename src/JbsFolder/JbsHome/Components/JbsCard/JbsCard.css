@@ -12,7 +12,7 @@
 }
 
 .choose {
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   font-size: 28px;
   font-weight: 700;
   line-height: 25.38px;
@@ -20,7 +20,7 @@
 }
 
 .overlist {
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   font-size: 16px;
   font-weight: 400;
   line-height: 23.58px;
@@ -40,7 +40,7 @@
 }
 
 .contact-ussss {
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   font-size: 32px;
   font-weight: 700;
   line-height: 35.38px;
@@ -50,7 +50,7 @@
 }
 
 .welove {
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   font-size: 19px;
   font-weight: 400;
   line-height: 23.58px;
@@ -254,7 +254,7 @@
 }
 
 .card-container-first-image-lis {
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   font-size: 18px;
   font-weight: 500;
   line-height: 23.58px;
@@ -305,12 +305,113 @@
   }
 
   .card-cotainer-background {
-    display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
+    height: auto !important;
+    gap: 1rem !important;
   }
+    .card-container-first-image,
+    .card-container-second-image,
+    .card-container-third-image,
+    .card-container-fourth-image {
+      width: 100% !important;
+      height: 500px !important;
+      margin-bottom: 1rem;
+    }
+
+         .card-container-first-image-contaent {
+           font-size: 24px;
+         }
+    
+         .card-container-first-image-lis {
+           font-size: 16px;
+         }
 
   .card-container-third-image {
     width: 100% !important;
     margin-top: 5%;
+    height: 100% ;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .card-cotainer-background {
+  display: flex !important;
+  gap: 2% !important;
+  width: 100%;
+  height: 100vh;
+} */
+
+/* .card-container-first-image,
+.card-container-fourth-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100% !important;
+  height: 95%;
+  color: white;
+  padding-top: 9%;
+  padding-left: 6%;
+  padding-right: 6%;
+  box-sizing: border-box;
+  border-radius: 15px;
+} */
+
+/* .card-container-second-image,
+.card-container-third-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 86% !important;
+  height: 95%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 15px;
+} */
+
+/* @media (max-width: 550px) {
+  .card-cotainer-background {
+    flex-direction: column;
+    height: auto;
+    gap: 1rem !important;
+  }
+
+  .card-container-first-image,
+  .card-container-second-image,
+  .card-container-third-image,
+  .card-container-fourth-image {
+    width: 100% !important;
+    height: 500px !important;
+    margin-bottom: 1rem;
+  }
+
+  .card-container-first-image-contaent {
+    font-size: 24px;
+  }
+
+  .card-container-first-image-lis {
+    font-size: 16px;
+  }
+} */

@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function JbsMainPage() {
   return (
-    <Container>
+    <Container className="jbs-work-container">
       <Row>
         <Col md={12} className="jbs-mainpage-heading-col">
           <span className="jbs-mainpage-heading">OUR WORKS</span>

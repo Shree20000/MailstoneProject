@@ -1,5 +1,3 @@
-
-
 .jbs-mainpage-heading {
   font-family: "Noto Sans";
   font-size: 30px;
@@ -38,6 +36,7 @@
   padding: 0 50px !important;
 }
 
+
 .jbs-mainpage-img1 {
   background-image: url("https://res.cloudinary.com/drny4cbec/image/upload/v1719912327/unoveqw6inqnk42yallr.png");
   background-size: cover;
@@ -46,6 +45,12 @@
   width: 42% !important;
   min-height: 95%;
   border-radius: 24px;
+}
+
+@media (min-width:550px) {
+  .jbs-work-container {
+      margin-top: 5%;
+    }
 }
 
 @media only screen and (max-width: 767px) {

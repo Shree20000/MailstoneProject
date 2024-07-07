@@ -1,5 +1,6 @@
 .jbsTopContainer{
     padding: 0 !important;
+    margin-top: 2% !important;
 }
 .jbsfirstimage{
     width: 100%;
@@ -60,7 +61,7 @@
     
 }
 .jbsinnercolcontaintcontant{
-    font-family: "Roboto";
+    font-family: "Inter";
 }
 .iconcontainer {
     background-color: red;
@@ -235,10 +236,12 @@
     }
     .jbsinnercolcontaint{
         margin-top: 0.3%;
+        padding: 2%;
+        text-align: center;
     }
     .jbsinnercolcontaintcontant{
         margin: 0;
-        padding: 5px;
+        padding: 5px !important;
     }
     .buttoncolomn{
         display: flex;
