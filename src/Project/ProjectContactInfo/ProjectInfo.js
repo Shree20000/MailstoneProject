@@ -3,19 +3,13 @@ import { Col, Container, Row } from "react-bootstrap";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
-import HorizontalLine from "../../GlobalComponent/HorizontalLine/HorizontalLine";
-import { GoArrowDownRight } from "react-icons/go";
-import BiggerCard from "../../GlobalComponent/CardsContainer/BiggerCard";
-import SmallerCard from "../../GlobalComponent/CardsContainer/SmallerCard";
-import SecondSectionBigCard from "../../GlobalComponent/CardsContainer/SecondSectionBigCard";
-import SecondSectionSmall from "../../GlobalComponent/CardsContainer/SecondSectionSmall";
-import { MdOutlineArrowForwardIos } from "react-icons/md";
+import "./ProjectInfo.css";
 
 const ProjectInfo = () => {
   return (
     <Container>
-      <Row className="contactInforow">
-        <Col sm={6} xs={12}>
+      <Row className="projectinfoContactForm gx-4">
+        <Col sm={6} xs={12} className="pe-sm-3">
           <h1 className="infomationfirsttext">Get in touch for </h1>
           <h1 className="infomationsecondtext">Stunning interiors.</h1>
           <div className="colorcontainer">
@@ -66,13 +60,7 @@ const ProjectInfo = () => {
             </div>
           </div>
         </Col>
-        <Col sm={6} xs={12} className="circlesideimage">
-          <img
-            src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719398680/mailStone/wwc2xcaytrypsyy0jtuh.png"
-            alt=""
-            className="contactimage"
-          />
-        </Col>
+        <Col sm={6} xs={12} className="ps-sm-3 circlesideimage"></Col>
       </Row>
     </Container>
   );

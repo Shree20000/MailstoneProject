@@ -1,8 +1,7 @@
-/* .MainnNavBarImage {
+.MainnNavBarImage {
   width: 100% !important;
   max-width: 80px !important;
   height: auto !important;
- 
 }
 
 .NavBarContainer {
@@ -14,16 +13,30 @@
   display: flex !important;
   justify-content: space-between !important;
   padding-top: 16px !important;
-  transition: top 0.7s;
- 
+  transition: top 0.5s;
+  background-color: #d5b890;
+  z-index: 999 !important;
 }
 
-.mainnnContainerNavComponent.show{
+.mainnavbarhbsbuttoncontainer{
+  display: flex;
+  justify-content: end;
+}
+
+@media (min-width: 600px) {
+  .mainnnContainerNavComponent {
+    position: fixed !important;
+  }
+}
+
+.mainnnContainerNavComponent.show {
   top: 0px;
 }
-.mainnnContainerNavComponent.hide{
-  top: -50px;
+
+.mainnnContainerNavComponent.hide {
+  top: -110px;
 }
+
 .navbar-toggler {
   margin-left: auto;
 }
@@ -79,6 +92,7 @@
   .MainnNavBarButtons .nav-link {
     padding: 0.25rem 0.5rem !important;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -87,7 +101,10 @@
     overflow-x: auto !important;
     justify-content: flex-start !important;
   }
-} */
+}
+
+
+
 
 
 
@@ -114,9 +131,18 @@
   display: flex !important;
   justify-content: space-between !important;
   padding-top: 16px !important;
-  transition: top 0.5s;
-  background-color: #d5b890;
+  transition: top 0.5s, background-color 0.3s, backdrop-filter 0.3s;
+  background-color: white;
+  /* Semi-transparent background */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   z-index: 999 !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mainnavbarhbsbuttoncontainer {
+  display: flex;
+  justify-content: end;
 }
 
 @media (min-width: 600px) {
@@ -141,7 +167,7 @@
   border: 3px solid #ec981f !important;
   padding: 8px !important;
   border-radius: 23px !important;
-  background-color: white !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
   padding-left: 18px !important;
   padding-right: 18px !important;
   font-family: Roboto !important;
@@ -163,6 +189,8 @@
   white-space: nowrap !important;
   padding: 0.5rem 0.75rem !important;
   position: relative;
+  color: #333 !important;
+  /* Darker color for better contrast */
 }
 
 .MainnNavBarButtons .nav-link.active::after {
@@ -174,6 +202,10 @@
   width: 100%;
   background-color: #0c3f78;
   transition: width 0.3s ease;
+}
+
+div#basic-navbar-nav {
+  padding-bottom: 7px !important;
 }
 
 @media (max-width: 576px) {
@@ -188,7 +220,9 @@
   .MainnNavBarButtons .nav-link {
     padding: 0.25rem 0.5rem !important;
   }
-
+    div#basic-navbar-nav {
+      padding-bottom: 0px !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -198,126 +232,8 @@
     justify-content: flex-start !important;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* .MainnNavBarImage {
-  width: 100% !important;
-  max-width: 80px !important;
-  height: auto !important;
+.mainnnContainerNavComponent.blur-background {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(251, 250, 248, 0.5);
 }
-
-.NavBarContainer {
-  padding: 0;
-}
-
-.mainnnContainerNavComponent {
-  width: 100% !important;
-  display: flex !important;
-  justify-content: space-between !important;
-  padding-top: 16px !important;
-  transition: top 0.5s;
-}
-
-.mainnnContainerNavComponent.show {
-  top: 0px;
-}
-
-.mainnnContainerNavComponent.hide {
-  top: -90px;
-}
-
-.navbar-toggler {
-  margin-left: auto;
-}
-
-.mainnavBarButton {
-  border: 3px solid #ec981f !important;
-  padding: 8px !important;
-  border-radius: 23px !important;
-  background-color: white !important;
-  padding-left: 18px !important;
-  padding-right: 18px !important;
-  font-family: Roboto !important;
-  font-weight: 500 !important;
-  color: #0c3f78 !important;
-  white-space: nowrap !important;
-}
-
-.MainnNavBarButtons {
-  display: flex !important;
-  justify-content: center !important;
-  flex-grow: 1 !important;
-  font-family: "Inter" !important;
-  font-weight: 700 !important;
-  gap: 2rem !important;
-}
-
-.MainnNavBarButtons .nav-link {
-  white-space: nowrap !important;
-  padding: 0.5rem 0.75rem !important;
-  position: relative;
-}
-
-.MainnNavBarButtons .nav-link.active::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -5px;
-  height: 3px;
-  width: 100%;
-  background-color: #0c3f78;
-  transition: width 0.3s ease;
-}
-
-@media (max-width: 576px) {
-  .MainnNavBarImage {
-    max-width: 60px !important;
-  }
-
-  .MainnNavBarButtons {
-    gap: 0.5rem !important;
-  }
-
-  .MainnNavBarButtons .nav-link {
-    padding: 0.25rem 0.5rem !important;
-  }
-
-  .navbar-collapse {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: white;
-    padding: 1rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-
-  .mainnnContainerNavComponent {
-    padding-bottom: 16px !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .MainnNavBarButtons {
-    flex-direction: column !important;
-    align-items: center !important;
-  }
-
-  .mainnavBarButton {
-    margin-top: 1rem !important;
-  }
-}
-
-body {
-  transition: padding-top 0.3s ease;
-} */

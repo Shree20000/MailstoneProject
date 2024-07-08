@@ -211,10 +211,31 @@ p.projectbuttoncontainedicon {
 button.projectbutton {
     margin-top: 4% !important;
 }
+
+.circlesideimage{
+    background-image: url("https://res.cloudinary.com/dbklt3v4d/image/upload/v1719398680/mailStone/wwc2xcaytrypsyy0jtuh.png");
+    background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* width: 100% !important; */
+        height: auto;
+        color: white;
+        padding-top: 9%;
+        padding-left: 6%;
+        padding-right: 6%;
+        box-sizing: border-box;
+        border-radius: 15px;
+}
+.contactInfoFirstCol{
+    padding: 0 !important;
+}
 @media (max-width: 500px) {
     
     .circlesideimage {
         margin-top: 4% !important;
+        width: 100% !important;
+        height: 500px !important;
+        padding: 3% !important;
     }
     .circleicons{
         margin-bottom: 5%;
@@ -225,9 +246,10 @@ button.projectbutton {
         text-align: center;
     }
     .infomationsecondtext {
-        font-size: 38px;
+        font-size: 33px;
         color: #4E4E4E;
         text-align: center;
+        margin-bottom: 5%;
     }
     .projecttexts {
         font-size: 32px;

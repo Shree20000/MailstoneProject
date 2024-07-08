@@ -25,6 +25,12 @@
   background-color: rgba(255, 255, 255, 0.233) !important;
 }
 
+@media (max-width:500px) {
+  .aboutus-page1-main-container{
+    margin-top: 1% !important;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .aboutus-page1-main-heading {
     font-size: 50px;
