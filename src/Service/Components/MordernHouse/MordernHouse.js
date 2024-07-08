@@ -9,6 +9,7 @@ export default function MordernHouse() {
         <Image
           src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719302462/ggbkq6jb1zptaaeuajta.png"
           className="milestone-image"
+          loading="lazy"
         />
         <div className="text-overlay">
           <h1 className="future-h1">

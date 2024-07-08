@@ -11,7 +11,12 @@ const SecondSectionBigCard = (props) => {
           <h3>{props.headername}</h3>
           <button className="apartmentbtn">{props.buttonname}</button>
         </div>
-        <img src={props.imgurl} alt="" className="firstimageapartment" />
+        <img
+          src={props.imgurl}
+          alt=""
+          className="firstimageapartment"
+          loading="lazy"
+        />
         <ul className="ulbig">
           <li className="contentapartment">{props.contained}</li>
         </ul>
