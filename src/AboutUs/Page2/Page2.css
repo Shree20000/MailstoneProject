@@ -4,14 +4,14 @@
   background-size: cover;
 }
 .aboutus-page2-heading {
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 450%;
   font-weight: 700;
   text-align: right;
   color: #0c3f78;
 }
 .aboutus-page2-para {
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 150%;
   font-weight: 400;
   line-height: 43.57px;
@@ -63,4 +63,20 @@
     padding: 0 2rem 0 2rem;
     font-size: 120%;
   }
+  .row-gap{
+    margin-top: 2%;
+    padding: 2% !important;
+  }
 }
+@media (max-width:500px) {
+  .aboutus-page2-para.col-xl-7.col-lg-7.col-md-7 {
+      margin-top: -8%;
+    }
+}
+   
+@media (max-width:400px) {
+  .meet-buttons.row {
+      margin-top: -22% !important;
+    }
+}
+   

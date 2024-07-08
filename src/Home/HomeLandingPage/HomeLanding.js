@@ -31,7 +31,8 @@ const HomeLanding = () => {
         <Col sm={5} xs={12} className="thirdColomn">
           <h1 className="thirdcolomnfirsttext">
             {" "}
-            <span className="firsttextspan">MAKE</span> YOUR-
+            <span className="firsttextspan">MAKE</span> YOUR
+            <span className="singlebarline">-</span>
           </h1>
           <h1 className="thirdcolomnsecondtext">
             HOUSE TO <span className="secondtextspan"> HOME </span>

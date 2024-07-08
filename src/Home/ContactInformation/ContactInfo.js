@@ -16,7 +16,7 @@ const ContactInfo = () => {
   return (
     <Container>
       <Row className="contactInforow">
-        <Col sm={6} xs={12}>
+        <Col sm={6} xs={12} className="contactInfoFirstCol">
           <h1 className="infomationfirsttext">Get in touch for </h1>
           <h1 className="infomationsecondtext">Stunning interiors.</h1>
           <div className="colorcontainer">
@@ -68,14 +68,13 @@ const ContactInfo = () => {
           </div>
         </Col>
         <Col sm={6} xs={12} className="circlesideimage">
-          <img
+          {/* <img
             src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719398680/mailStone/wwc2xcaytrypsyy0jtuh.png"
             alt=""
             className="contactimage"
-          />
+          /> */}
         </Col>
       </Row>
-      <Row></Row>
       <Row>
         <HorizontalLine />
       </Row>
@@ -139,9 +138,6 @@ const ContactInfo = () => {
           contained="Our innovative office spaces are designed to enhance productivity and foster creativity. This project highlights our expertise in creating functional, aesthetically pleasing work environments that cater to modern business needs."
         />
       </Row>
-      {/* <Row>
-        <HorizontalLine />
-      </Row> */}
 
       <Row className="imageContainer">
         <BiggerCard

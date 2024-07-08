@@ -267,6 +267,9 @@
     .lowersecondimage {
         width: 100%;
     }
+        .containtoffirstcolomn.col-sm-6.col-12 {
+            margin-top: -7%;
+        }
 }
 
 @media (min-width: 1000px) and (max-width: 1200px) {

@@ -192,6 +192,19 @@
     .MainHomeSociallink {
       margin-top: 17% !important;
     }
-  
+    .MainContainer { 
+      margin-top: -10% !important;
+    }
+    .singlebarline{
+      display: none !important;
+    }
+    .thirdcolomnparagraph{
+      text-align: center;
+    }
+    .showelem{
+      text-align: center ;
+      margin-top: 4% ;
+      font-family: 'Inter';
+    }  
   }
   
