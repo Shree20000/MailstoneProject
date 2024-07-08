@@ -3,6 +3,7 @@ import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import "./CommercialCard.css";
 import { MdArrowOutward } from "react-icons/md";
 import ServiceModal from "../ServiceModal/ServiceModal";
+import OptimizedImage from "../../../GlobalComponent/OptimizedImage/OptimizedImage";
 
 export default function CommercialCard({ coworking, button, lipara, image }) {
   const [modal, setModal] = useState(false);
@@ -22,7 +23,12 @@ export default function CommercialCard({ coworking, button, lipara, image }) {
             <div>
               <div>
                 <Row className="row-row123">
-                  <Image
+                  {/* <Image
+                    src={image}
+                    className="image-height1234"
+                    loading="lazy"
+                  /> */}
+                  <OptimizedImage
                     src={image}
                     className="image-height1234"
                     loading="lazy"

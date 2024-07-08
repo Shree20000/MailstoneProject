@@ -41,6 +41,7 @@ const JbsTopHomePage = () => {
                 src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719900156/mailStone/zsegduhxlloryoddsbee.png"
                 alt="image"
                 className="jbsfirstimage"
+                loading="lazy"
               />
             </div>
           </Col>

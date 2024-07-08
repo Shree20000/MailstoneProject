@@ -6,7 +6,10 @@ import "./FeaturedProject.css";
 export default function FeaturedProject() {
   return (
     <>
-      <div style={{ backgroundColor: "#F3F2F2" }} className="div-class-bg123">
+      <div
+        style={{ backgroundColor: "#F3F2F2" }}
+        className="div-class-bg123 mt-5"
+      >
         <Row>
           <Col md={10} xs={9} className="featured-project">
             FEATURED PROJECTS
