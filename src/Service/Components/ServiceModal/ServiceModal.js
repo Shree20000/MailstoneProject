@@ -7,7 +7,7 @@ import OptimizedImage from "../../../GlobalComponent/OptimizedImage/OptimizedIma
 export default function ServiceModal(props) {
   return (
     <>
-      <Modal {...props}>
+      <Modal {...props} animation={false}>
         <Row className="modal-row">
           <Col>
             <Row>
