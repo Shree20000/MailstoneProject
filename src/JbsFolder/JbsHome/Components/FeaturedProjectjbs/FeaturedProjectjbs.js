@@ -3,7 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./FeaturedProjectjbs.css";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+import OptimizedImage from "../../../../GlobalComponent/OptimizedImage/OptimizedImage.js";
 
 function FeaturedProjectjbs() {
   const settings = {
@@ -49,11 +50,10 @@ function FeaturedProjectjbs() {
               <Slider {...settings}>
                 <div className="slider-slider">
                   <div className="image-container">
-                    <Image
+                    <OptimizedImage
                       src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719902790/owypptbpnihgsdvzfecs.png"
                       height="275"
                       width="240"
-                      loading="lazy"
                     />
                     <span className="image-text">01</span>
                   </div>
@@ -62,11 +62,10 @@ function FeaturedProjectjbs() {
                 </div>
                 <div className="slider-slider">
                   <div className="image-container">
-                    <Image
+                    <OptimizedImage
                       src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719895675/ojvyxt1gnsgb37wfpj94.png"
                       height="275"
                       width="240"
-                      loading="lazy"
                     />
                     <span className="image-text">02</span>
                   </div>
@@ -75,11 +74,10 @@ function FeaturedProjectjbs() {
                 </div>
                 <div className="slider-slider">
                   <div className="image-container">
-                    <Image
+                    <OptimizedImage
                       src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719902944/zbwcfpy2p9xgzokaaf84.png"
                       height="275"
                       width="240"
-                      loading="lazy"
                     />
                     <span className="image-text">03</span>
                   </div>
@@ -88,11 +86,10 @@ function FeaturedProjectjbs() {
                 </div>
                 <div className="slider-slider">
                   <div className="image-container">
-                    <Image
+                    <OptimizedImage
                       src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719903050/dhy8qxfvmhonxzokfk7q.png"
                       height="270"
                       width="230"
-                      loading="lazy"
                     />
                     <span className="image-text">04</span>
                   </div>
@@ -102,11 +99,10 @@ function FeaturedProjectjbs() {
 
                 <div className="slider-slider">
                   <div className="image-container">
-                    <Image
+                    <OptimizedImage
                       src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719903161/m3uhbl2qnxjvahymlwjz.png"
                       height="275"
                       width="240"
-                      loading="lazy"
                     />
                     <span className="image-text">05</span>
                   </div>
@@ -116,11 +112,10 @@ function FeaturedProjectjbs() {
 
                 <div className="slider-slider">
                   <div className="image-container">
-                    <Image
+                    <OptimizedImage
                       src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719903261/nsbn7imbojeq9zfdxzv4.png"
                       height="270"
                       width="230"
-                      loading="lazy"
                     />
                     <span className="image-text">06</span>
                   </div>
@@ -130,11 +125,10 @@ function FeaturedProjectjbs() {
 
                 <div className="slider-slider">
                   <div className="image-container">
-                    <Image
+                    <OptimizedImage
                       src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719903802/tggbbcta5bxunecwda4i.png"
                       height="270"
                       width="230"
-                      loading="lazy"
                     />
                     <span className="image-text">07</span>
                   </div>
@@ -144,11 +138,10 @@ function FeaturedProjectjbs() {
 
                 <div className="slider-slider">
                   <div className="image-container">
-                    <Image
+                    <OptimizedImage
                       src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719903385/hnlbnabk2b5yuvbbudll.png"
                       height="275"
                       width="240"
-                      loading="lazy"
                     />
                     <span className="image-text">08</span>
                   </div>
@@ -158,11 +151,10 @@ function FeaturedProjectjbs() {
 
                 <div className="slider-slider">
                   <div className="image-container">
-                    <Image
+                    <OptimizedImage
                       src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719904083/ctnzjg8zhoefbvnffxts.png"
                       height="275"
                       width="240"
-                      loading="lazy"
                     />
                     <span className="image-text">09</span>
                   </div>

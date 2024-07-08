@@ -9,15 +9,17 @@ import {
   Row,
 } from "react-bootstrap";
 import "./JbsForm.css";
+import OptimizedImage from "../../../../GlobalComponent/OptimizedImage/OptimizedImage";
 
 export default function JbsForm() {
   return (
     <Container
       style={{ marginTop: "2rem", position: "relative", marginBottom: "0" }}
     >
-      <Image
+      <OptimizedImage
         src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719906012/a3mjbxzszkqbbnrnbanm.png"
         className="background-image"
+        loading="lazy"
       />
       <Card className="centered-card">
         <Form>
