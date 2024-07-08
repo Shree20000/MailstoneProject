@@ -7,31 +7,6 @@ import Fabrication from "../Fabrication/Fabrication";
 import { IoIosArrowForward } from "react-icons/io";
 
 export default function Commercial() {
-  const [imagesLoaded, setImagesLoaded] = useState({});
-
-  useEffect(() => {
-    const images = document.querySelectorAll("img");
-    images.forEach((img) => {
-      img.onload = () => {
-        setImagesLoaded((prevImagesLoaded) => ({
-          ...prevImagesLoaded,
-          [img.src]: true,
-        }));
-      };
-    });
-  }, []);
-
-  const handleImageLoad = (src) => {
-    if (!imagesLoaded[src]) {
-      return (
-        <img
-          src="https://via.placeholder.com/350x150"
-          alt="Placeholder"
-          style={{ width: "100%", height: "150px" }}
-        />
-      );
-    }
-  };
   return (
     <div>
       <CommercialPara

@@ -1,5 +1,5 @@
 .co-working1{
-    font-family: Inter;
+    font-family: "Inter";
 font-size: 18px;
 font-weight: 670;
 line-height: 34px;
@@ -7,7 +7,7 @@ color:
 #1C1C1C;
 }
 .commercial-button1{
-    font-family: Inter;
+    font-family: "Inter";
 font-size: 13px;
 font-weight: 600;
 line-height: 15px;
@@ -46,7 +46,7 @@ border-radius: 30px !important;
  .ul-tag1{
     margin-left: -2rem;
     margin-top: 2rem;
-    font-family: Inter;
+    font-family: "Inter";
 font-size: 17px;
 font-weight: 400;
 line-height: 25.8px;
@@ -74,21 +74,21 @@ color: #1C1C1C;
         height: 350px !important;
         width: 100% !important;
         position: relative;
-        margin-left: 1.6rem;
+        margin-left: 2.6rem;
       }
   }
   @media (max-width: 767px) {
         #span-arrow1{
-          margin-left:73%;
+          margin-left:75%;
             margin-top: -4rem;
         
        }
   }
   @media (max-width: 767px) {
     .ul-tag1{
-        margin-left: 0.5rem;
+        margin-left: 1.2rem;
         margin-top: 2rem;
-        margin-right: -2rem;
+        margin-right: -2.2rem;
     
      }
 }
