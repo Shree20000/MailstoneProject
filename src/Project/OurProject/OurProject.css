@@ -1,9 +1,11 @@
 .our-project{
     font-family: Inter;
-font-size: 46px;
+font-size: 49px;
 font-weight: 700;
 line-height: 70.18px;
 color: #00AFEF;
+margin-left: 2%;
+margin-top: -3.5rem !important;
 }
 .arrow-image{
     width: 60%;
@@ -102,12 +104,16 @@ text-align: justify;
     font-weight: 700;
     line-height: 40.18px;
     color: #00AFEF;
+    margin-left: 0;
+margin-top: 0.2rem !important;
     } 
     .dashed-line {
        display: none;
       }
       .content-row {
         padding: 0 ;
+        text-align: center;
+        align-items: center;
       }
       .dashed-border-container {
         position: relative;

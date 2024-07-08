@@ -5,7 +5,7 @@ import "./MordernHouse.css";
 export default function MordernHouse() {
   return (
     <>
-      <div style={{ position: "relative" }}>
+      <div className="divstyleee">
         <Image
           src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719302462/ggbkq6jb1zptaaeuajta.png"
           className="milestone-image"

@@ -1,125 +1,17 @@
-/* .co-working{
-    font-family: Inter;
-font-size: 18px;
-font-weight: 670;
-line-height: 34px;
-color: 
-#1C1C1C;
-}
-.commercial-button{
-    font-family: Inter;
-font-size: 13px;
-font-weight: 600;
-line-height: 15px;
-color: #4E4E4E !important;
-background-color: white !important;
-border: 2px solid #EC981F !important;
-border-radius: 30px !important;
 
-}
-.vertical-line {
-    border-left: 3px solid #000 !important; 
-    height: 100% !important;
-   margin-left: 2rem;
-    
-  }
-  .image-height1234{
-    height: 400px !important;
-    width: 100% !important;
-    position: relative;
-  }
-  #span-arrow{
-   margin-left: 24.2%;
-   margin-top: -4.6rem;
-   position: absolute;
-  }
- .outward23{
-    background: #EC981F !important;
-    border: none !important;
-    padding: 0.8rem !important;
-    border-radius: 50% !important;
- }
- #outword-icon12{
-    font-size: 26px;
-    font-weight: bold; 
- }
- .ul-tag{
-    margin-left: -2rem;
-    margin-top: 2rem;
-    font-family: Inter;
-font-size: 17px;
-font-weight: 400;
-line-height: 25.8px;
-text-align: justify !important;
-color: #1C1C1C;
 
- }
- .marginleft{
-    margin-left: -3.9rem;
- }
- @media (max-width: 767px) {
-    .co-working{
-    font-size: 18px;
-    font-weight: 670;
-    line-height: 30px;
-    margin-left: 1.6rem;
-    }
-    
-  }
-  @media (max-width: 767px) {
-    .commercial-button{
-    font-size: 13px !important;
-    line-height: 15px;
-    margin-left: -1rem;
-    }
-    
-  }
-  @media (max-width: 767px) {
-    .image-height1234{
-        height: 350px !important;
-        width: 100% !important;
-        position: relative;
-        margin-left: 1.8rem;
-      }
-    
-  }
-  @media (max-width: 767px) {
-    #span-arrow{
-        margin-left:73%;
-        margin-top: -4rem;
-       
-       }
-    
-  }
-  @media (max-width: 767px) {
-    .ul-tag{
-        margin-left: 0.5rem;
-        margin-top: 2rem;
-        margin-right: -2rem;
-     }
-  }
-  @media (max-width: 767px) {
-    .marginleft{
-        margin-left: -2.5rem;
-     }
-  }
-  @media (max-width: 767px) {
-   .vertical-line {
-     display: none;
-      
-    }
-    
- } */
  .co-working {
-   font-family: Inter;
+   font-family: "Inter";
    font-size: 18px;
    font-weight: 670;
    line-height: 34px;
    color: #1C1C1C;
  }
- 
+ .row-row123{
+  margin-top: 2rem;
+ }
  .commercial-button {
-   font-family: Inter;
+   font-family: "Inter";
    font-size: 13px;
    font-weight: 600;
    line-height: 15px;
@@ -162,7 +54,7 @@ color: #1C1C1C;
  .ul-tag {
    margin-left: -2rem;
    margin-top: 2rem;
-   font-family: Inter;
+   font-family: "Inter";
    font-size: 17px;
    font-weight: 400;
    line-height: 25.8px;
@@ -216,7 +108,7 @@ color: #1C1C1C;
  }
  @media (max-width: 767px) {
    #span-arrow{
-       margin-left:73%;
+       margin-left:75%;
        margin-top: -4rem;
       
       }
@@ -229,6 +121,14 @@ color: #1C1C1C;
         font-size: 13px !important;
         line-height: 18px;
         margin-left: -1.6rem;
+      }
+      .image-height1234 {
+        margin-left: 2.6rem;
+      }
+      .ul-tag {
+        margin-left: 1.2rem;
+     margin-top: 2rem;
+     margin-right: -2.2rem;
       }
     
    
