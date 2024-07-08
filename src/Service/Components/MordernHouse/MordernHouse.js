@@ -1,12 +1,18 @@
 import React from "react";
 import { Button, Image } from "react-bootstrap";
 import "./MordernHouse.css";
+import OptimizedImage from "../../../GlobalComponent/OptimizedImage/OptimizedImage";
 
 export default function MordernHouse() {
   return (
     <>
       <div className="divstyleee">
-        <Image
+        {/* <Image
+          src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719302462/ggbkq6jb1zptaaeuajta.png"
+          className="milestone-image"
+          loading="lazy"
+        /> */}
+        <OptimizedImage
           src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719302462/ggbkq6jb1zptaaeuajta.png"
           className="milestone-image"
           loading="lazy"

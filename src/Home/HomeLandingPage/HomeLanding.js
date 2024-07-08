@@ -10,6 +10,7 @@ import light from "../Assets/light (2).png";
 import tool from "../Assets/tools.png";
 import decoker from "../Assets/decoker.png";
 import tree from "../Assets/tree.png";
+import OptimizedImage from "../../GlobalComponent/OptimizedImage/OptimizedImage";
 
 const HomeLanding = () => {
   return (
@@ -22,11 +23,16 @@ const HomeLanding = () => {
           <p>Facebook</p>
         </Col>
         <Col sm={5} xs={12} className="secondColomn">
-          <img
+          <OptimizedImage
+            src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719377129/mailStone/j9bhc8paygknmrql1nuw.png"
+            className="MainImage"
+            loading="lazy"
+          />
+          {/* <img
             src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719377129/mailStone/j9bhc8paygknmrql1nuw.png"
             alt=""
             className="MainImage"
-          />
+          /> */}
         </Col>
         <Col sm={5} xs={12} className="thirdColomn">
           <h1 className="thirdcolomnfirsttext">
@@ -46,10 +52,15 @@ const HomeLanding = () => {
 
           <button className="learbbutton">Learn More</button>
 
-          <img
+          {/* <img
             src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719379249/mailStone/qc196tvzlicejmmrxwle.png"
             alt=""
             className="dottedline"
+          /> */}
+          <OptimizedImage
+            src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719379249/mailStone/qc196tvzlicejmmrxwle.png"
+            className="dottedline"
+            loading="lazy"
           />
         </Col>
       </Row>
@@ -58,11 +69,16 @@ const HomeLanding = () => {
       </Row>
       <Row className="fourthrow">
         <Col sm={3} xs={6}>
-          <img
+          <OptimizedImage
+            src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719384700/mailStone/mvvayepiu70dhtifkae2.png"
+            className="secondsectionfirstimage"
+            loading="lazy"
+          />
+          {/* <img
             src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719384700/mailStone/mvvayepiu70dhtifkae2.png"
             alt=""
             className="secondsectionfirstimage"
-          />
+          /> */}
         </Col>
         <Col sm={4} className="tenthcol">
           <p className="textOfSecondSection">
@@ -76,11 +92,16 @@ const HomeLanding = () => {
           </p>
         </Col>
         <Col sm={5} xs={6}>
-          <img
+          <OptimizedImage
+            src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719384866/mailStone/cujnflednifuewy8ncuw.png"
+            className="secondsectionsecondimage"
+            loading="lazy"
+          />
+          {/* <img
             src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719384866/mailStone/cujnflednifuewy8ncuw.png"
             alt=""
             className="secondsectionsecondimage"
-          />
+          /> */}
         </Col>
         <Col sm={12} xs={12}>
           <p className="showelem">

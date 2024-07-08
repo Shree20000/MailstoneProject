@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Col, Image, Modal, Row } from "react-bootstrap";
 import { RxCross2 } from "react-icons/rx";
 import "./ServiceModal.css";
+import OptimizedImage from "../../../GlobalComponent/OptimizedImage/OptimizedImage";
 
 export default function ServiceModal(props) {
   return (
@@ -37,28 +38,48 @@ export default function ServiceModal(props) {
             </ul>
             <Row>
               <Col>
-                <Image
+                {/* <Image
                   src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719814110/sddjemhjzjjaoth1che1.png"
                   className="modalImage"
-                />
-              </Col>
-              <Col>
-                <Image
-                  src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719814110/sddjemhjzjjaoth1che1.png"
-                  className="modalImage"
-                />
-              </Col>
-            </Row>
-            <Row style={{ marginTop: "0.7rem" }}>
-              <Col>
-                <Image
+                /> */}
+                <OptimizedImage
                   src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719814110/sddjemhjzjjaoth1che1.png"
                   className="modalImage"
                   loading="lazy"
                 />
               </Col>
               <Col>
-                <Image
+                {/* <Image
+                  src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719814110/sddjemhjzjjaoth1che1.png"
+                  className="modalImage"
+                /> */}
+                <OptimizedImage
+                  src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719814110/sddjemhjzjjaoth1che1.png"
+                  className="modalImage"
+                  loading="lazy"
+                />
+              </Col>
+            </Row>
+            <Row style={{ marginTop: "0.7rem" }}>
+              <Col>
+                {/* <Image
+                  src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719814110/sddjemhjzjjaoth1che1.png"
+                  className="modalImage"
+                  loading="lazy"
+                /> */}
+                <OptimizedImage
+                  src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719814110/sddjemhjzjjaoth1che1.png"
+                  className="modalImage"
+                  loading="lazy"
+                />
+              </Col>
+              <Col>
+                {/* <Image
+                  src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719814110/sddjemhjzjjaoth1che1.png"
+                  className="modalImage"
+                  loading="lazy"
+                /> */}
+                <OptimizedImage
                   src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719814110/sddjemhjzjjaoth1che1.png"
                   className="modalImage"
                   loading="lazy"

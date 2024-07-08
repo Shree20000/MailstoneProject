@@ -3,6 +3,7 @@ import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import "./Fabrication.css";
 import { MdArrowOutward } from "react-icons/md";
 import ServiceModal from "../ServiceModal/ServiceModal";
+import OptimizedImage from "../../../GlobalComponent/OptimizedImage/OptimizedImage";
 
 export default function Fabrication({ upvc, buttonup, favimg, longtext }) {
   const [modal1, setModal1] = useState();
@@ -20,7 +21,12 @@ export default function Fabrication({ upvc, buttonup, favimg, longtext }) {
               </Col>
             </Row>
             <Row style={{ marginTop: "2rem" }}>
-              <Image
+              {/* <Image
+                src={favimg}
+                className="image-height12345"
+                loading="lazy"
+              /> */}
+              <OptimizedImage
                 src={favimg}
                 className="image-height12345"
                 loading="lazy"
