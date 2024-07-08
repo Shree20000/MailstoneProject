@@ -231,7 +231,7 @@
 }
 
 .card-container-second-image {
-  background-image: url('https://res.cloudinary.com/dbklt3v4d/image/upload/v1720158668/mailStone/Frame_1321316272_scrmfc.png');
+  /* background-image: url('https://res.cloudinary.com/dbklt3v4d/image/upload/v1720158668/mailStone/Frame_1321316272_scrmfc.png'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -244,6 +244,7 @@
   padding: 20px;
   box-sizing: border-box;
   border-radius: 15px;
+  background-color: #f0f0f0;
 }
 
 .card-container-first-image-contaent {
@@ -267,7 +268,7 @@
 }
 
 .card-container-third-image {
-  background-image: url('https://res.cloudinary.com/dbklt3v4d/image/upload/v1720162289/mailStone/Frame_1321316313_pumxjp.png');
+  /* background-image: url('https://res.cloudinary.com/dbklt3v4d/image/upload/v1720162289/mailStone/Frame_1321316313_pumxjp.png'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -280,6 +281,7 @@
   padding: 20px;
   box-sizing: border-box;
   border-radius: 15px;
+  background-color: #f0f0f0;
 }
 
 .card-container-fourth-image {

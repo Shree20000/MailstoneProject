@@ -9,7 +9,7 @@ const ProjectInfo = () => {
   return (
     <Container>
       <Row className="projectinfoContactForm gx-4">
-        <Col sm={6} xs={12} className="pe-sm-3">
+        <Col sm={6} xs={12} className="pe-sm-3 contactInformationPadding">
           <h1 className="infomationfirsttext">Get in touch for </h1>
           <h1 className="infomationsecondtext">Stunning interiors.</h1>
           <div className="colorcontainer">

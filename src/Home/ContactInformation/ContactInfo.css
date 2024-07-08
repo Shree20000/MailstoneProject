@@ -1,4 +1,4 @@
-html, body {
+/* html, body {
     overflow-x: hidden;
     width: 100%;
 }
@@ -280,11 +280,14 @@ button.projectbutton {
         margin-top: 1.3rem !important;
     }
   }
-  
+   */
 
 
 
-   /* html,
+
+
+
+   html,
    body {
        overflow-x: hidden;
        width: 100%;
@@ -532,6 +535,86 @@ button.projectbutton {
        margin-top: 4% !important;
    }
 
+   .circlesideimage {
+       background-image: url("https://res.cloudinary.com/dbklt3v4d/image/upload/v1719398680/mailStone/wwc2xcaytrypsyy0jtuh.png");
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       height: auto;
+       color: white;
+       padding-top: 9%;
+       padding-left: 6%;
+       padding-right: 6%;
+       box-sizing: border-box;
+       border-radius: 15px;
+   }
+
+   .contactInfoFirstCol {
+       padding: 0 !important;
+   }
+
+   @media (max-width: 500px) {
+
+       .circlesideimage {
+           margin-top: 4% !important;
+           width: 100% !important;
+           height: 500px !important;
+           padding: 3% !important;
+       }
+
+       .circleicons {
+           margin-bottom: 5%;
+       }
+
+       .infomationfirsttext {
+           font-size: 38px;
+           margin-top: 2%;
+           text-align: center;
+       }
+
+       .infomationsecondtext {
+           font-size: 33px;
+           color: #4E4E4E;
+           text-align: center;
+           margin-bottom: 5%;
+       }
+
+       .projecttexts {
+           font-size: 32px;
+       }
+
+       .projecticon {
+           font-size: 30px;
+           color: black;
+       }
+
+       .projectthirdtext {
+           margin-left: 0%;
+       }
+
+       .projectcontain {
+           text-align: center;
+       }
+
+       .verticalline {
+           display: none;
+       }
+
+       .apartmentbtn {
+           background-color: white;
+           border-radius: 30px;
+           border-color: #EC981F;
+           padding-top: 3px !important;
+           padding-bottom: 3px !important;
+           padding-left: 5px !important;
+           padding-right: 5px !important;
+       }
+
+       .projectbuttonrow {
+           margin-top: 1.3rem !important;
+       }
+   }
+
    @media (max-width: 500px) {
        .circlesideimage {
            margin-top: 4% !important;
@@ -596,4 +679,14 @@ button.projectbutton {
        .imageContainer.row {
            margin-top: 27% !important;
        }
-   } */
+   }
+   @media (max-width:380px) {
+    
+    /* .secondColomn {
+            margin-top: 12% !important;
+        }
+
+        .uncertainCard {
+            margin-top: 20% !important;
+        } */
+   }

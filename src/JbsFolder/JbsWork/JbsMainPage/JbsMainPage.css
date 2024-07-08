@@ -38,13 +38,14 @@
 
 
 .jbs-mainpage-img1 {
-  background-image: url("https://res.cloudinary.com/drny4cbec/image/upload/v1719912327/unoveqw6inqnk42yallr.png");
+  /* background-image: url("https://res.cloudinary.com/drny4cbec/image/upload/v1719912327/unoveqw6inqnk42yallr.png"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 42% !important;
   min-height: 95%;
   border-radius: 24px;
+  background-color: #f0f0f0;
 }
 
 @media (min-width:550px) {

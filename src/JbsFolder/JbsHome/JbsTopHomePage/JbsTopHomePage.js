@@ -5,6 +5,7 @@ import { GoArrowRight } from "react-icons/go";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import OptimizedImage from "../../../GlobalComponent/OptimizedImage/OptimizedImage";
+// import LazyBackground from "../../../GlobalComponent/OptimizedImage/LazyBackground";
 
 const JbsTopHomePage = () => {
   const location = useLocation();
