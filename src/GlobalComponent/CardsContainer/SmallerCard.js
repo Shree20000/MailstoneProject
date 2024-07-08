@@ -1,5 +1,6 @@
 import React from "react";
 import { Col } from "react-bootstrap";
+import OptimizedImage from "../OptimizedImage/OptimizedImage";
 
 const SmallerCard = (props) => {
   return (
@@ -11,12 +12,17 @@ const SmallerCard = (props) => {
           <h3>{props.headername}</h3>
           <button className="apartmentbtn">{props.buttonname}</button>
         </div>
-        <img
+        <OptimizedImage
+          src={props.imgurl}
+          className="secondimageapartment"
+          loading="lazy"
+        />
+        {/* <img
           src={props.imgurl}
           alt=""
           className="secondimageapartment"
           loading="lazy"
-        />
+        /> */}
         <ul>
           <li className="contentapartment">{props.contained}</li>
         </ul>
