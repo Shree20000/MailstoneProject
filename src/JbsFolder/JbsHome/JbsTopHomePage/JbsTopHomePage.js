@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { GoArrowRight } from "react-icons/go";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import OptimizedImage from "../../../GlobalComponent/OptimizedImage/OptimizedImage";
 
 const JbsTopHomePage = () => {
   const location = useLocation();
@@ -37,12 +38,17 @@ const JbsTopHomePage = () => {
           </Col>
           <Col sm={6} xs={12}>
             <div>
-              <img
+              <OptimizedImage
+                src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719900156/mailStone/zsegduhxlloryoddsbee.png"
+                className="jbsfirstimage"
+                loading="lazy"
+              />
+              {/* <img
                 src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719900156/mailStone/zsegduhxlloryoddsbee.png"
                 alt="image"
                 className="jbsfirstimage"
                 loading="lazy"
-              />
+              /> */}
             </div>
           </Col>
         </Row>
@@ -104,19 +110,29 @@ const JbsTopHomePage = () => {
         </Row>
         <Row className="buttomsrowimages">
           <Col sm={6} xs={12} className="text-start">
-            <img
+            <OptimizedImage
+              src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719912750/mailStone/k3etbsrwcfyf1fvjh3lw.png"
+              className="lowerfirstimage"
+              loading="lazy"
+            />
+            {/* <img
               src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719912750/mailStone/k3etbsrwcfyf1fvjh3lw.png"
               alt=""
               className="lowerfirstimage"
-            />
+            /> */}
             <p className="buttomsrowimagesfirstptag">THE HEART OF HOME</p>
           </Col>
           <Col sm={6} xs={12} className="lowersecondimagecontainer ">
             <div>
-              <img
+              {/* <img
                 src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719912933/mailStone/iem3q38btdi356lviknp.png"
                 alt=""
                 className="lowersecondimage"
+              /> */}
+              <OptimizedImage
+                src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719912933/mailStone/iem3q38btdi356lviknp.png"
+                className="lowersecondimage"
+                loading="lazy"
               />
               <p className="secondptag">luxurious outdoor oasis</p>
             </div>
