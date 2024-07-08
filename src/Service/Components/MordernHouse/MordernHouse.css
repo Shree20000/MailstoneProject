@@ -4,7 +4,10 @@
   width: 100%;
   position: relative;
 }
-
+.divstyleee{
+  position: relative;
+  margin-top: 4rem;
+}
 .text-overlay {
   position: absolute;
   top: 41%;
@@ -81,6 +84,10 @@
     margin-top: 3rem;
     margin-left: -1rem;
   }
+  .divstyleee{
+    margin-top: 0;
+  }
+  
 }
 
 @media (min-width: 767px) and (max-width: 1024px) {

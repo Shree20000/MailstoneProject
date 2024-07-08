@@ -21,7 +21,7 @@ export default function CommercialCard({ coworking, button, lipara, image }) {
             </Row>
             <div>
               <div>
-                <Row style={{ marginTop: "2rem" }}>
+                <Row className="row-row123">
                   <Image src={image} className="image-height1234" />
                 </Row>
               </div>

@@ -3,7 +3,7 @@
     font-size: 34px;
     font-weight: 700;
     line-height: 77.45px;
-   margin-left: 3rem;
+   margin-left: -2rem;
   color: #4E4E4E;  
   margin-top: 5rem;    
 }
@@ -14,8 +14,8 @@ font-weight: 500;
 line-height: 30px;
 text-align: justified;
 color: #1E1E1E;
-margin-left: 5rem;
-margin-right: 5.5rem;
+margin-left: 0;
+margin-right: 0;
 margin-top: 1.5rem;
 text-align: justify;
 margin-bottom: 9rem !important;

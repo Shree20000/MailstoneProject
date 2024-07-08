@@ -1,4 +1,4 @@
-.commercial{
+/* .commercial{
     font-family: "Inter";
     font-size: 50px;
     font-weight: 700;
@@ -6,8 +6,8 @@
    margin-left: 4.6rem;
   color: #4E4E4E;  
   margin-top: 5rem;    
-}
-.commercial-para{
+} */
+/* .commercial-para{
     font-family: "Inter";
 font-size: 18px;
 font-weight: 500;
@@ -19,7 +19,7 @@ margin-right: 5.5rem;
 margin-top: 2rem;
 margin-bottom: 7rem !important;
 
-}
+} */
 .commercial-card-row{
     margin-top: 3rem;
     margin-left: 5.5rem;
@@ -58,4 +58,11 @@ border-radius: 30px !important;
     align-items: center;
     margin-top: 5rem !important;
     margin-bottom: 3rem !important;
+  }
+  @media (max-width: 767px) {
+    .all-project{
+      font-family: "Inter";
+  font-size: 16px !important;
+    }
+    
   }

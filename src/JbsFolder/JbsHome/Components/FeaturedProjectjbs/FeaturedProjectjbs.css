@@ -1,5 +1,5 @@
 .slider-row {
-  padding-left: 3rem;
+  padding-left: 4%;
   padding-top: 1rem;
 }
 
@@ -115,4 +115,16 @@
     margin-left: 0;
     margin-top: 0.6rem;
   }
+}
+
+@media (min-width: 1400px)  {
+  .slider-row {
+    padding-left: 2%;
+    padding-top: 1rem;
+  }
+  .image-text {
+   
+    left: 16%;
+  }
+  
 }
