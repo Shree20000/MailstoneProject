@@ -22,7 +22,11 @@ export default function CommercialCard({ coworking, button, lipara, image }) {
             <div>
               <div>
                 <Row className="row-row123">
-                  <Image src={image} className="image-height1234" />
+                  <Image
+                    src={image}
+                    className="image-height1234"
+                    loading="lazy"
+                  />
                 </Row>
               </div>
               <div>

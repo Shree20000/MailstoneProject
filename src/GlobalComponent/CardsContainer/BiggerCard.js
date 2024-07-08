@@ -11,7 +11,12 @@ const BiggerCard = (props) => {
           <button className="biggercardbutton">{props.buttonname}</button>
         </div>
       </div>
-      <img src={props.imgurl} alt="" className="firstimageapartment" />
+      <img
+        src={props.imgurl}
+        alt=""
+        className="firstimageapartment"
+        loading="lazy"
+      />
       <ul className="ulbig">
         <li className="contentapartment">{props.contained}</li>
       </ul>

@@ -54,12 +54,14 @@ export default function ServiceModal(props) {
                 <Image
                   src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719814110/sddjemhjzjjaoth1che1.png"
                   className="modalImage"
+                  loading="lazy"
                 />
               </Col>
               <Col>
                 <Image
                   src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719814110/sddjemhjzjjaoth1che1.png"
                   className="modalImage"
+                  loading="lazy"
                 />
               </Col>
             </Row>
