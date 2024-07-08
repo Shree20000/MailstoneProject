@@ -4,14 +4,14 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function JbsMainPage() {
   return (
-    <Container>
+    <Container className="jbs-work-container">
       <Row>
         <Col md={12} className="jbs-mainpage-heading-col">
           <span className="jbs-mainpage-heading">OUR WORKS</span>
         </Col>
       </Row>
       <Row className="jbs-mainpage-images">
-        <Col md={5} className="jbs-mainpage-img1"></Col>
+        <div className="jbs-mainpage-img1"></div>
         <Col md={5} className="jbs-mainpage-img2">
           At JBS Interiors, every project is a testament to our dedication to
           quality, innovation, and customer satisfaction. Explore our diverse

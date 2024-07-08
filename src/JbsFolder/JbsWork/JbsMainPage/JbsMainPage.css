@@ -5,18 +5,23 @@
   line-height: 65.38px;
   border-bottom: 2px solid black;
 }
+
 .jbs-mainpage-heading-col {
   margin: 2rem 0 !important;
 }
+
 .jbs-mainpage-images {
   display: flex;
   justify-content: center;
+  gap: 2%;
   margin-top: 2rem !important;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .jbs-mainpage-img2 {
   background-image: url("https://res.cloudinary.com/drny4cbec/image/upload/v1719912324/pe3shhkgqx5fxfjy2oji.png");
-  height: 700px;
+  min-height: 95%;
   width: 100%;
   background-size: cover;
   border-radius: 24px;
@@ -27,37 +32,46 @@
   font-size: 150%;
   font-weight: 500;
   text-align: justify;
-  margin: 1rem;
+  /* margin: 1rem; */
   padding: 0 50px !important;
 }
+
+
 .jbs-mainpage-img1 {
   background-image: url("https://res.cloudinary.com/drny4cbec/image/upload/v1719912327/unoveqw6inqnk42yallr.png");
-  width: 100%;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 700px;
-  object-fit: cover;
+  width: 42% !important;
+  min-height: 95%;
   border-radius: 24px;
-  margin: 1rem;
 }
 
-/* .jbsfirstimagecontainer {
-  height: fit-content !important;
-} */
+@media (min-width:550px) {
+  .jbs-work-container {
+      margin-top: 5%;
+    }
+}
+
 @media only screen and (max-width: 767px) {
   .jbs-mainpage-img1 {
+    width: 100% !important;
     height: 500px;
   }
+
   .jbs-mainpage-img2 {
     height: 500px;
     font-size: 100%;
     padding: 0 50px !important;
-    /* margin-top: 0.5rem !important; */
+    margin-top: 10px !important;
   }
+
   .jbs-mainpage-images {
-    padding: 0 20px;
+    flex-direction: column;
+    margin: 0 1px !important;
   }
 }
+
 @media only screen and (min-width: 766px) and (max-width: 992px) {
   .jbs-mainpage-img2 {
     padding: 0 12px !important;

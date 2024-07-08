@@ -1,5 +1,6 @@
 .MainHomeSociallink {
     position: relative;
+    margin-top: 6% !important;
   }
   
   .HomeSociallink {
@@ -134,6 +135,7 @@
       transform-origin: left center;
       left: 2rem;
     }
+    
   }
   @media (max-width: 500px) {
     .HomeSociallink {
@@ -187,6 +189,9 @@
   .linebarContainer{
     text-align: center;
   }
+    .MainHomeSociallink {
+      margin-top: 17% !important;
+    }
   
   }
   
