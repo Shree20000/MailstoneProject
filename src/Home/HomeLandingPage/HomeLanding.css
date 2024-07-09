@@ -69,7 +69,14 @@
   margin-top: 42%;
   /* margin-left: 14rem; */
   margin-left: 42%;
+  /* display: flex;
+  justify-content: flex-end; */
+ 
   padding: 0;
+}
+.dotted-divvv{
+  text-align: end;
+  align-items: flex-end;
 }
 
  .seconrow.row {
@@ -217,6 +224,7 @@
       text-align: center ;
       margin-top: 4% ;
       font-family: 'Inter';
-    }  
+    } 
+    
   }
   

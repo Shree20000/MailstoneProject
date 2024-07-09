@@ -12,6 +12,8 @@ function FeaturedProjectjbs() {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
+    autoplay: true, // Enable autoplay
+    autoplaySpeed: 1500,
     slidesToScroll: 1,
     responsive: [
       {

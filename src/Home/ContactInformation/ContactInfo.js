@@ -79,7 +79,7 @@ const ContactInfo = () => {
           </ul>
         </Col>
         <Col className="projectfirsttext projectcontain " sm={12} xs={12}>
-          <h1 className="projecttexts">UNLEASHING</h1>
+          <h1 className="projecttexts123">UNLEASHING</h1>
         </Col>
         <Col className="projectsecondtext projectcontain" sm={12} xs={12}>
           <h1 className="projecttexts"> THE</h1>
@@ -100,7 +100,7 @@ const ContactInfo = () => {
       <Row className="imageContainerTop">
         <BiggerCard
           headername="Co-Working Space"
-          buttonname="Commercial"
+          buttonname="Commercials"
           imgurl="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719466046/mailStone/nktjgghwrt9sgmdadujr.png"
           contained="An innovative co-working space that offers a dynamic environment for
           startups and freelancers. This project highlights our commitment to
@@ -109,7 +109,7 @@ const ContactInfo = () => {
         />
         <SmallerCard
           headername="Apartment Complex"
-          buttonname="Residential"
+          buttonname="Residentials"
           imgurl="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719465987/mailStone/ij2d8mer9xwmyletlrw6.png"
           contained="An urban apartment complex that combines modern amenities with
             sustainable design. This project highlights our expertise in
@@ -127,7 +127,7 @@ const ContactInfo = () => {
         />
         <SecondSectionBigCard
           headername="Innovative Office Spaces"
-          buttonname="Commercial"
+          buttonname="Commercials"
           imgurl="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719470950/mailStone/vkhvuruxjkarpgfimfys.png"
           contained="Our innovative office spaces are designed to enhance productivity and foster creativity. This project highlights our expertise in creating functional, aesthetically pleasing work environments that cater to modern business needs."
         />
