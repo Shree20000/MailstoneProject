@@ -1,5 +1,5 @@
 import React from "react";
-import { Col } from "react-bootstrap";
+import { Button, Col } from "react-bootstrap";
 import "./BiggerCard.css";
 import OptimizedImage from "../OptimizedImage/OptimizedImage";
 
@@ -9,7 +9,7 @@ const BiggerCard = (props) => {
       <div className="biggercardbuttonbtncontainer">
         <h3>{props.headername}</h3>
         <div className="biggercardbutton">
-          <button className="biggercardbutton">{props.buttonname}</button>
+          <Button className="biggercardbutton123">{props.buttonname}</Button>
         </div>
       </div>
       <OptimizedImage

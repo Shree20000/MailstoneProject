@@ -28,11 +28,6 @@ const HomeLanding = () => {
             className="MainImage"
             loading="lazy"
           />
-          {/* <img
-            src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719377129/mailStone/j9bhc8paygknmrql1nuw.png"
-            alt=""
-            className="MainImage"
-          /> */}
         </Col>
         <Col sm={5} xs={12} className="thirdColomn">
           <h1 className="thirdcolomnfirsttext">
@@ -51,17 +46,13 @@ const HomeLanding = () => {
           </p>
 
           <button className="learbbutton">Learn More</button>
-
-          {/* <img
-            src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719379249/mailStone/qc196tvzlicejmmrxwle.png"
-            alt=""
-            className="dottedline"
-          /> */}
-          <OptimizedImage
-            src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719379249/mailStone/qc196tvzlicejmmrxwle.png"
-            className="dottedline"
-            loading="lazy"
-          />
+          <div className="dotted-divvv">
+            <OptimizedImage
+              src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719379249/mailStone/qc196tvzlicejmmrxwle.png"
+              className="dottedline"
+              loading="lazy"
+            />
+          </div>
         </Col>
       </Row>
       <Row className="seconrow">
