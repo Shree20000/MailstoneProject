@@ -15,8 +15,8 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 const ContactInfo = () => {
   return (
     <Container>
-      <Row className="contactInforow">
-        <Col sm={6} xs={12} className="contactInfoFirstCol">
+      <Row className="contactInforow gx-4">
+        <Col sm={6} xs={12} className="contactInfoFirstCol pe-sm-3">
           <h1 className="infomationfirsttext">Get in touch for </h1>
           <h1 className="infomationsecondtext">Stunning interiors.</h1>
           <div className="colorcontainer">
@@ -67,13 +67,7 @@ const ContactInfo = () => {
             </div>
           </div>
         </Col>
-        <Col sm={6} xs={12} className="circlesideimage">
-          {/* <img
-            src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719398680/mailStone/wwc2xcaytrypsyy0jtuh.png"
-            alt=""
-            className="contactimage"
-          /> */}
-        </Col>
+        <Col sm={6} xs={12} className="circlesideimage ps-sm-3 "></Col>
       </Row>
       <Row>
         <HorizontalLine />

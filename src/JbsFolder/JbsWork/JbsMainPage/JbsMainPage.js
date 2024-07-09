@@ -1,6 +1,7 @@
 import React from "react";
 import "./JbsMainPage.css";
 import { Container, Row, Col } from "react-bootstrap";
+import LazyBackground from "../../../GlobalComponent/OptimizedImage/LazyBackground";
 
 function JbsMainPage() {
   return (
@@ -11,7 +12,10 @@ function JbsMainPage() {
         </Col>
       </Row>
       <Row className="jbs-mainpage-images">
-        <div className="jbs-mainpage-img1"></div>
+        <LazyBackground
+          src="https://res.cloudinary.com/drny4cbec/image/upload/v1719912327/unoveqw6inqnk42yallr.png"
+          className="jbs-mainpage-img1"
+        />
         <Col md={5} className="jbs-mainpage-img2">
           At JBS Interiors, every project is a testament to our dedication to
           quality, innovation, and customer satisfaction. Explore our diverse

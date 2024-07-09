@@ -38,11 +38,11 @@ export default function OurProject() {
         </div>
       </div>
       <Container>
-        <div>
-          <Row>
-            <ProjectInfo />
-          </Row>
-        </div>
+        {/* <div>
+          <Row> */}
+        <ProjectInfo />
+        {/* </Row>
+        </div> */}
       </Container>
     </>
   );

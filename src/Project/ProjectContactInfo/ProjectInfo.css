@@ -8,4 +8,11 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+        
+}
+
+@media (max-width:500px) {
+    .pe-sm-3.contactInformationPadding.col-sm-6.col-12 {
+            padding: 0 !important;
+        }
 }

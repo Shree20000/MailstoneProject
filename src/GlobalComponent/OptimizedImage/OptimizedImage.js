@@ -10,12 +10,9 @@ const OptimizedImage = ({ src, alt, className }) => {
     const isCloudinaryUrl = src.includes("res.cloudinary.com");
 
     if (isCloudinaryUrl) {
-      // Generate responsive image URL for Cloudinary
       setImageSrc(src.replace("/upload/", "/upload/w_auto,c_scale/"));
-      // Generate smaller image URL for placeholder
       setSmallImageSrc(src.replace("/upload/", "/upload/w_20,e_blur:1000/"));
     } else {
-      // For non-Cloudinary images, create a small placeholder
       const img = new Image();
       img.crossOrigin = "Anonymous";
       img.onload = function () {
