@@ -81,7 +81,7 @@
  
    .image-height1234 {
      height: 350px !important;
-     width: 100% !important;
+     width: 114% !important;
      position: relative;
      margin-left: 2rem;
    }
@@ -99,7 +99,8 @@
    }
  
    .marginleft {
-     margin-left: -2.5rem;
+     margin-left: -1.8rem;
+    
    }
  
    .vertical-line {
@@ -108,7 +109,7 @@
  }
  @media (max-width: 767px) {
    #span-arrow{
-       margin-left:75%;
+       margin-left:80%;
        margin-top: -4rem;
       
       }
@@ -123,12 +124,12 @@
         margin-left: -1.6rem;
       }
       .image-height1234 {
-        margin-left: 2.6rem;
+        margin-left: 1.5rem;
       }
       .ul-tag {
-        margin-left: 1.2rem;
+        margin-left: 0;
      margin-top: 2rem;
-     margin-right: -2.2rem;
+     margin-right: -3.3rem;
       }
     
    

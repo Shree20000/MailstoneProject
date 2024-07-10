@@ -17,7 +17,7 @@ export default function Fabrication({ upvc, buttonup, favimg, longtext }) {
                 {upvc}
               </Col>
               <Col md={2} xs={1} className="marginleft1">
-                <Button className="commercial-button">{buttonup}</Button>
+                <Button className="commercial-button1">{buttonup}</Button>
               </Col>
             </Row>
             <Row style={{ marginTop: "2rem" }}>
