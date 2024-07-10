@@ -27,7 +27,7 @@ function Page4() {
               <Page4Content
                 number="02"
                 title=<span className="vision-col">VISION</span>
-                description="To redefine industry standards in quality and innovation, inspiring excellence and trust among our clients and partners."
+                description="To Redefine Industry Standards In Quality And Innovation, Inspiring Excellence And Trust Among Our Clients And Partners."
               />
             </Col>
           </Row>
@@ -36,7 +36,7 @@ function Page4() {
               <Page4Content
                 number="03"
                 title="PHILOSOPHY"
-                description="Embrace a culture of integrity and excellence, ensuring every project reflects our commitment to quality and customer satisfaction."
+                description="Embrace a Culture Of Integrity And Excellence, Ensuring Every Project Reflects Our Commitment To Quality And Customer Satisfaction."
               />
             </Col>
           </Row>

@@ -23,9 +23,11 @@
 
 .mission-description {
   font-family: "Inter";
-  font-size: 100%;
-  font-weight: 500;
+  font-size: 17.5px;
+  font-weight: 570;
+  line-height: 28.57px;
   text-align: left;
+  
 }
 .mission-hr {
   display: inline-block;
