@@ -100,7 +100,8 @@ export default function Commercial() {
           <Col md={2}></Col>
           <Col className="ofc-building" xs={12} md={5}>
             <CommercialCard
-              coworking=<span className="msss">MS and SS Fabrications</span>
+              coworking="MS and SS Fabrications"
+              // coworking=<span className="msss">MS and SS Fabrications</span>
               button="MS&SS"
               lipara="Our expertise spans across both Mild Steel (MS) and Stainless Steel (SS) fabrications. We deliver robust, durable structures and components tailored to enhance functionality and durability across various applications, meeting stringent industry standards."
               image="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1719385128/rs5vik8f3c8xwpvvfwbe.png"

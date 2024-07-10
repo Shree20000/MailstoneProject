@@ -37,12 +37,11 @@ margin-bottom: 7rem !important;
   }
   .msss{
     font-size: 18px;
+    margin-right: 1rem;
+    padding-right: 2rem;
+   
   }
-  @media (max-width: 767px) {
-    .msss{
-        font-size: 14px;
-      }
-  }
+ 
   .all-project{
     font-family: "Inter";
 font-size: 20px !important;
@@ -64,5 +63,7 @@ border-radius: 30px !important;
       font-family: "Inter";
   font-size: 16px !important;
     }
+  
     
   }
+
