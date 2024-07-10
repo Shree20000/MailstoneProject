@@ -5,6 +5,7 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import CommercialPara from "../CommercialPara/CommercialPara";
 import Fabrication from "../Fabrication/Fabrication";
 import { IoIosArrowForward } from "react-icons/io";
+import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 export default function Commercial() {
   return (
@@ -161,13 +162,14 @@ export default function Commercial() {
           </Col>
         </Row>
       </Container>
-      <Container>
-        <Row className="allproject-row">
-          <Col>
-            <Button className="all-project">
-              See All Projects <IoIosArrowForward />
-            </Button>
-          </Col>
+      <Container className="commercislLastButton">
+        <Row className="projectbuttonrow">
+          <button className="projectbutton">
+            <p className="projectbuttoncontained"> See Other Projects </p>{" "}
+            <p className="projectbuttoncontainedicon">
+              <MdOutlineArrowForwardIos className="leftarrowIcon" />
+            </p>
+          </button>
         </Row>
       </Container>
     </div>

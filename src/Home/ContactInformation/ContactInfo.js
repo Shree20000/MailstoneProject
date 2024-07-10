@@ -118,7 +118,7 @@ const ContactInfo = () => {
         />
       </Row>
 
-      <Row className="imageContainer">
+      <Row className="mt-4">
         <SecondSectionSmall
           headername="Elegant Living Rooms"
           buttonname="Residentials"
@@ -133,7 +133,7 @@ const ContactInfo = () => {
         />
       </Row>
 
-      <Row className="imageContainer">
+      <Row className="mt-4">
         <BiggerCard
           headername="UPVC Windows and Sliding Doors"
           buttonname="Fabrications"

@@ -10,7 +10,9 @@ const SmallerCard = (props) => {
         <div className="topcontainedheader">
           {/* <h3>Apartment Complex</h3> */}
           <h3>{props.headername}</h3>
-          <button className="apartmentbtn">{props.buttonname}</button>
+          <div>
+            <button className="apartmentbtn">{props.buttonname}</button>
+          </div>
         </div>
         <OptimizedImage
           src={props.imgurl}

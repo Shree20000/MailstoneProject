@@ -8,9 +8,10 @@ const SecondSectionSmall = (props) => {
     <Col sm={5} xs={12} className="secondColomn">
       <div className="defectSmallCardButton">
         <div className="topcontainedheader">
-          {/* <h3>Apartment Complex</h3> */}
           <h3>{props.headername}</h3>
-          <button className="apartmentbtn">{props.buttonname}</button>
+          <div className="SecondeSectionButtonContainer">
+            <button className="SecondeSectionButton">{props.buttonname}</button>
+          </div>
         </div>
         <OptimizedImage
           src={props.imgurl}
