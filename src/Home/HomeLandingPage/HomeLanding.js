@@ -44,11 +44,12 @@ const HomeLanding = () => {
             handcrafted, fine furniture that excite the eye and nurture the
             soul.
           </p>
-
-          <button className="learbbutton">Learn More</button>
+          <div>
+            <button className="learbbutton">Learn More</button>
+          </div>
           <div className="dotted-divvv">
-            <OptimizedImage
-              src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719379249/mailStone/qc196tvzlicejmmrxwle.png"
+            <img
+              src="https://res.cloudinary.com/dtjjk0vwy/image/upload/v1720525974/jctkjf5rdlahkxqwwxsf.png"
               className="dottedline"
               loading="lazy"
             />
@@ -65,11 +66,6 @@ const HomeLanding = () => {
             className="secondsectionfirstimage"
             loading="lazy"
           />
-          {/* <img
-            src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719384700/mailStone/mvvayepiu70dhtifkae2.png"
-            alt=""
-            className="secondsectionfirstimage"
-          /> */}
         </Col>
         <Col sm={4} className="tenthcol">
           <p className="textOfSecondSection">
