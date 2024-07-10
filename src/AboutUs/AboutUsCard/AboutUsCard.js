@@ -12,13 +12,13 @@ export default function AboutUsCard() {
           </Col>
           <Col lg={4} md={6} sm={12} className="mb-4">
             <CardComp
-              projectno="200+"
+              projectno="400+"
               happy="
-     Happy Customers"
+    Projects"
             />
           </Col>
           <Col lg={4} md={6} sm={12} className="mb-4">
-            <CardComp projectno="200+" happy="Happy Customers" />
+            <CardComp projectno="5+" happy="Cities" />
           </Col>
         </Row>
       </div>
