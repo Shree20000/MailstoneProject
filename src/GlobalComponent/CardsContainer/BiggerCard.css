@@ -1,24 +1,14 @@
-.ulbig{
+/* .ulbig{
     padding-left: 18px;
 }
 
 
-/* .biggercardbutton {
-    background-color: white;
-    border-radius: 30px !important;
-    border-color:  #EC981F;
-    padding-top: 7px !important;
-    padding-bottom: 7px !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-} */
 .biggercardbutton123 {
    
    font-family: "Inter" !important;
     background-color: white !important;
     border-radius: 30px !important;
     color: black !important;
-    /* border-color:  #EC981F !important; */
     border: 2px solid #EC981F !important ;
     font-weight: 600 !important;
 }
@@ -31,4 +21,24 @@
 
   
 }
+ */
 
+
+
+ .ulbig {
+     padding-left: 18px;
+ }
+
+ .biggercardbutton123 {
+     font-family: "Inter" !important;
+     background-color: white !important;
+     border-radius: 30px !important;
+     color: black !important;
+     border: 2px solid #ec981f !important;
+     font-weight: 600 !important;
+ }
+
+ .biggercardbuttonbtncontainer {
+     display: flex;
+     justify-content: space-between;
+ }

@@ -1,4 +1,4 @@
-.SecondeSectionButton {
+/* .SecondeSectionButton {
     background-color: white;
     border-radius: 30px;
     border-color: #EC981F;
@@ -35,4 +35,25 @@
     } 
 }
 
+ */
 
+ .SecondeSectionButton {
+     background-color: white;
+     border-radius: 30px;
+     border: 2px solid #ec981f;
+     font-weight: 600 !important;
+     padding: 6px 12px;
+     font-family: "Inter" !important;
+     color: black;
+ }
+
+ @media (max-width: 400px) {
+
+     /* .defectSmallCardButton {
+    margin-top: 60px !important;
+  } */
+     .SecondeSectionButton {
+         padding-top: -5px !important;
+         font-size: 600;
+     }
+ }

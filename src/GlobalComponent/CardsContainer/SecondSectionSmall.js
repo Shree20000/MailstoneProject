@@ -9,7 +9,9 @@ const SecondSectionSmall = (props) => {
       <div className="defectSmallCardButton">
         <div className="topcontainedheader">
           <h3>{props.headername}</h3>
-          <button className="SecondeSectionButton">{props.buttonname}</button>
+          <div className="SecondeSectionButtonContainer">
+            <button className="SecondeSectionButton">{props.buttonname}</button>
+          </div>
         </div>
         <OptimizedImage
           src={props.imgurl}

@@ -84,11 +84,6 @@ const HomeLanding = () => {
             className="secondsectionsecondimage"
             loading="lazy"
           />
-          {/* <img
-            src="https://res.cloudinary.com/dbklt3v4d/image/upload/v1719384866/mailStone/cujnflednifuewy8ncuw.png"
-            alt=""
-            className="secondsectionsecondimage"
-          /> */}
         </Col>
         <Col sm={12} xs={12}>
           <p className="showelem">
