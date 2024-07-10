@@ -171,6 +171,9 @@ html, body {
 .imageContainer.row {
     margin-top: 6% !important;
 }
+.imageContainer-specific.row {
+    margin-top: 6% !important;
+}
 .imageContainerTop{
     margin-top: 4% !important;
 }
@@ -290,6 +293,16 @@ button.projectbutton {
     .projectbuttonrow {
         margin-top: 1.3rem !important;
     }
+  }
+
+  @media (max-width:400px) {
+    .imageContainer.row {
+            margin-top: -11% !important;
+        }
+        .imageContainer.row {
+            margin-top: -14% !important;
+        }
+
   }
   
 
