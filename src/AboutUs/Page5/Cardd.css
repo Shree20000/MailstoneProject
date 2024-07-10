@@ -1,6 +1,6 @@
 .meet-buttons {
     padding: 0 5px;
-    margin-top: -19% !important;
+    margin-top: -22% !important;
   }
 .meet-left-buttons{
 
@@ -21,6 +21,9 @@
     padding-left: 4px;
     padding-right: 4px;
   }
+.nameinthecardcontainer{
+  margin-top: 5% !important;
+}
 
   @media only screen and (min-width: 800px) and (max-width: 1000px) {
     .meet-buttons {
