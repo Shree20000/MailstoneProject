@@ -17,12 +17,6 @@ const BiggerCard = (props) => {
         className="firstimageapartment"
         loading="lazy"
       />
-      {/* <img
-        src={props.imgurl}
-        alt=""
-        className="firstimageapartment"
-        loading="lazy"
-      /> */}
       <ul className="ulbig">
         <li className="contentapartment">{props.contained}</li>
       </ul>

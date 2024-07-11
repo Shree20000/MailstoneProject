@@ -12,11 +12,11 @@ export default function Commercial() {
       <CommercialPara
         name="COMMERCIAL CONSTRUCTION"
         para=" Our commercial construction services cater to businesses of all sizes.
-        We provide high-quality solutions for retail spaces, office buildings,
-        warehouses, co-working spaces, restaurants, and malls. Our projects
-        blend functionality with innovative design, ensuring environments that
-        enhance productivity and appeal. By leveraging our expertise and
-        commitment to excellence, we deliver commercial "
+         We provide high-quality solutions for retail spaces, office buildings, warehouses,
+          co-working spaces, restaurants, and malls. Our projects blend functionality with
+           innovative design, ensuring environments that enhance productivity and appeal.
+            By leveraging our expertise and commitment to excellence, we deliver commercial 
+            spaces that meet the highest standards and support the success of the businesses they house. "
       />
       <Container>
         <Row>

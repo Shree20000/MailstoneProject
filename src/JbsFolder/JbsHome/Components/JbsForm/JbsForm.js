@@ -64,11 +64,17 @@ export default function JbsForm() {
             <Col xs={12} md={6}>
               <Form.Group className="mb-3" controlId="formBasicEmail2">
                 <Form.Label className="meetyou">Subject</Form.Label>
-                <Form.Control
-                  type="text"
-                  placeholder="How can we help you?"
+                <Form.Select
                   className="jbs-placeholder"
-                />
+                  aria-label="Default select example"
+                >
+                  <option value="" className="jbs-placeholder23">
+                    How can we help you?
+                  </option>
+                  <option value="1">Option 1</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                </Form.Select>
               </Form.Group>
               <div className="underline-12"></div>
             </Col>

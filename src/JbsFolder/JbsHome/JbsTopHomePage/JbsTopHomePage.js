@@ -135,7 +135,7 @@ const JbsTopHomePage = () => {
                 className="lowersecondimage"
                 loading="lazy"
               />
-              <p className="secondptag">luxurious outdoor oasis</p>
+              <p className="secondptag">LUXURIOUS OUTDOOR OASIS</p>
             </div>
           </Col>
         </Row>

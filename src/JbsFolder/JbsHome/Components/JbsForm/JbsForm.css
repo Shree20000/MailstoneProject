@@ -22,15 +22,17 @@
     box-shadow: none !important;
   }
   
+  
   .jbs-placeholder::placeholder {
     color: #A8A4A3;
     opacity: 1;
-    font-family: Noto Sans;
-    font-size: 13px;
-    font-weight: 500;
+    font-family:"Noto Sans";
+    font-size: 13.4px;
+    font-weight: 400;
     line-height: 17.69px;
     padding: 0;
   }
+ 
   
   .meetyou {
     font-family: Noto Sans;
@@ -67,6 +69,23 @@ color: #251C1A;
     margin-top: -1rem;
     margin-left: 0.7rem;
   }
+  .jbs-placeholder {
+    color: #A8A4A3;
+    font-family:"Noto Sans";
+    font-size: 13.4px !important;
+    font-weight: 400 !important;
+    line-height: 17.69px !important;
+  }
+  
+  /* Style for the selected option */
+  .jbs-placeholder option {
+    color: #000; /* Option text color */
+  }
+  
+  /* Specific style for the placeholder option */
+ 
+
+
   @media (max-width: 767px) {
     .centered-card {
         width: 19.3rem;

@@ -17,7 +17,7 @@ function Page4() {
               <Page4Content
                 number="01"
                 title="MISSION"
-                description="To Provide Top-Quality Services In Construction And Interior Design, And To Grow With A Determination To Become A Renowned Brand."
+                description="To provide top-quality services in construction and interior design, and to grow with a determination to become a renowned brand."
               />
             </Col>
           </Row>
@@ -27,7 +27,7 @@ function Page4() {
               <Page4Content
                 number="02"
                 title=<span className="vision-col">VISION</span>
-                description="To Redefine Industry Standards In Quality And Innovation, Inspiring Excellence And Trust Among Our Clients And Partners."
+                description="To redefine industry standards in quality and innovation, inspiring excellence and trust among our clients and partners."
               />
             </Col>
           </Row>
@@ -36,7 +36,7 @@ function Page4() {
               <Page4Content
                 number="03"
                 title="PHILOSOPHY"
-                description="Embrace a Culture Of Integrity And Excellence, Ensuring Every Project Reflects Our Commitment To Quality And Customer Satisfaction."
+                description="Embrace a culture of integrity and excellence, ensuring every project reflects our commitment to quality and customer satisfaction."
               />
             </Col>
           </Row>
