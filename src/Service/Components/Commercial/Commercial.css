@@ -55,6 +55,10 @@ border-radius: 30px !important;
     margin-top: 5rem !important;
     margin-bottom: 3rem !important;
   }
+
+.commercislLastButton{
+  margin-top: 8%;
+}
   @media (max-width: 767px) {
     .all-project{
       font-family: "Inter";
@@ -63,4 +67,12 @@ border-radius: 30px !important;
   
     
   }
+  @media (max-width: 500px) {
+    .commercislLastButton {
+        margin-top: 1%;
+      }
+  
+    
+  }
+
 

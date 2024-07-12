@@ -14,6 +14,29 @@
 }
 @media (max-width:400px) {
     .secondcardcontainer{
-        margin-top: 69px !important ;
+        margin-top: 7% !important ;
+    }
+} 
+
+.verticallineBigCard {
+    width: 15px !important;
+    height: 100%;
+    background-color: black;
+}
+
+.secondcardcontainer {
+    display: flex;
+    gap: 18px;
+}
+
+@media (max-width: 500px) {
+    .verticallineBigCard {
+        display: none;
+    }
+}
+
+@media (max-width:400px) {
+    .secondcardcontainer {
+        margin-top: 7% !important;
     }
 }
