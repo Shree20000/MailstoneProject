@@ -1,0 +1,213 @@
+#products{
+    color: var(--Heading, #3F434A);
+font-family: "DM Sans";
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#manage-cat{
+    background-color: white;
+    color: var(--Heading, #3F434A);
+font-family: "DM Sans";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 10px;
+border-color: #E8E9EB;
+margin-right: 0.5rem;
+}
+#add-product{
+    color: var(--White, #FFF);
+font-family: "DM Sans";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-color: #8B63E7;
+background-color: #8B63E7;
+border-radius: 10px;
+}
+#plus-icon{
+    /* background-color: #5d2ab0; */
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: -0.1rem !important;
+    /* border-radius: 10px;
+    padding: 1px;
+    font-size: 15px !important;
+    margin-right: 10px; */
+}
+#plus-icon-span{
+    background-color: #5d2ab0;
+    border-radius: 10px;
+    padding: 2px 4px;
+    font-size: 15px !important;
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+    
+}
+#all-btn{
+   background-color: white;
+   color: var(--Heading, #3F434A);
+font-family: "DM Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 0.5rem;
+padding-right: 1rem;
+border: none;
+}
+.two-eight{
+    color: var(--Body-Light, #8A9099);
+text-align: center;
+font-family: "Poppins";
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background-color: #E8E9EB;
+padding: 0.2rem;
+border-radius: 7px;
+margin-left: 6px;
+}
+.preview{
+    color: #3C3D3E;
+font-family: "DM Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+.preview34{
+    color: #3A3B3D;
+font-family: "DM Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.cross{
+    background-color: #efe7fd;
+    padding: 4px 9px;
+    align-items: center;
+    border-radius: 7px;
+}
+.cross45-icon{
+    margin-top: -0.3rem;
+}
+.cross45{
+    background-color: #fde7e7;
+    padding: 4px 9px;
+    align-items: center;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+.search-option{
+    border: 1px solid #E8E9EB;
+    border-radius: 15px !important;
+    box-shadow: none;
+    height: 33px !important;
+    margin-top: 1rem !important;
+    width: 90%;
+    padding-left: 42px !important;
+   
+}
+.parent-div{
+    display: flex;
+    margin-top: 0.8rem !important;
+    gap: 15px;
+
+}
+.sub-div{
+    display: flex;
+    border: 1px solid #e8e9eb;
+    border-radius: 8px !important;
+   
+    /* gap: 10px; */
+}
+.sub-div2{
+   background-color: #efe7fd;
+   padding: 5px 11px;
+}
+.sub-div3{
+    padding: 5px 11px;
+ }
+ #filter-btn{
+    background-color: #e9e1f6;
+    border: none;
+    border-radius: 8px;
+    color: #09090A;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ }
+ #filter-icon{
+    font-size: 27px;
+    margin-right: 5px;
+ }
+ #short-btn{
+    color: var(--Heading, #3F434A);
+border-color: #E8E9EB;
+border-radius: 8px;
+font-family: "Poppins";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: white;
+ }
+ #hr-id{
+    border: 1px solid #E8E9EB;
+    margin-top: -0px !important;
+ }
+ #hr-id1{
+    border: 1px solid #E8E9EB;
+    /* margin-top: -0px !important; */
+ }
+ #btn-10{
+    color: var(--Heading, #3F434A);
+font-family: "Poppins";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: white;
+border-radius: 10px;
+border-color: #E8E9EB;
+margin-left: 10px;
+ }
+ #showing{
+    color: var(--Body-Light, #8A9099);
+
+/* Body/Regular/15 */
+font-family: "Poppins";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 10px;
+ }
+ .active-filter-btn {
+    position: relative;
+    color: #0d6efd !important; /* Ensure text color changes when active */
+    background-color: transparent !important; /* Keep background transparent */
+  }
+  .active-filter-btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px; 
+    width: 80%;
+    height: 2px; /* Adjust this value to control the thickness of the underline */
+    background-color: #0d6efd; /* Color of the underline */
+  }
+  

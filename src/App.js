@@ -1,11 +1,10 @@
 import React from "react";
-import RootRouter from "./RootRouter/RootRouter";
-import InitialRouter from "./RootRouter/InitialRouter";
+import InitialRouting from "./Routing/InitialRouting/InitialRouting";
 
 const App = () => {
   return (
     <>
-      <RootRouter />
+      <InitialRouting />
     </>
   );
 };

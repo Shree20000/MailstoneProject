@@ -1,0 +1,15 @@
+.rr3 {
+  padding: 0;
+}
+
+.rr1 {
+  /* Style for Sidebar column */
+  min-height: 100vh; 
+  /* width: 20% !important; */
+}
+
+.main-content {
+  /* Style for main content column */
+  background-color: #ffffff; /* Example content background */
+  padding: 0 15px; /* Adjust padding as needed */
+}

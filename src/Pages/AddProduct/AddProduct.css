@@ -1,0 +1,169 @@
+.add-product{
+    color: var(--Heading, #3F434A);
+font-family: "DM Sans";
+font-size: 23px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 10px;
+}
+#arrow-left{
+    fill: rgba(0, 0, 0, 0.81);
+    cursor: pointer !important;
+}
+#product-level{
+    color: #0E0E0E;
+font-family: "DM Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#star{
+    color: #F00;
+font-family: "DM Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.ql-toolbar.ql-snow {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    padding: 8px;
+    border-radius: 8px !important;
+    background-color: #f8f8f8;
+}
+.ql-container {
+    min-height: 100px; /* Adjust height as needed */
+    border-radius: 8px;
+    border: 1px solid #ced4da; /* Border color similar to default textarea */
+    padding: 8px;
+  }
+  
+  .ql-editor {
+    min-height: 100px; /* Adjust height as needed */
+    padding: 0; /* Remove padding if needed */
+    font-size: 14px; /* Font size similar to default input */
+  }
+  
+  .ql-toolbar {
+    border: 1px solid #ced4da; /* Border color for toolbar */
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+  }
+  #product-level-des{
+    color: #0E0E0E;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0.5rem;
+  }
+
+
+  /* .ReactTags__tags {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .ReactTags__selected {
+    display: inline;
+    padding: 0;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    background: #f3f3f3;
+    color: #555;
+    margin: 0 5px;
+    font-size: 13px;
+  }
+  
+  .ReactTags__selected:focus {
+    outline: 0;
+  }
+  
+  .ReactTags__remove {
+    cursor: pointer;
+    display: inline-block;
+    color: #888;
+    margin-left: 5px;
+  }
+  
+  .ReactTags__remove:after {
+    content: "✖";
+  }
+  
+  .ReactTags__tagInput {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 13px;
+  }
+  
+  .ReactTags__tagInputField {
+    margin: 0;
+    width: 200px;
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+  }
+  
+  .ReactTags__tagInputField:focus {
+    border-color: #aaa;
+  }
+   */
+
+   /* AddProduct.css */
+.ReactTags__tags {
+    position: relative;
+  }
+  
+  .ReactTags__tagInput {
+    width: 200px;
+    border-radius: 2px;
+    display: inline-block;
+  }
+  
+  .ReactTags__tagInput input.ReactTags__tagInputField,
+  .ReactTags__tagInput input.ReactTags__tagInputField:focus {
+    height: 31px;
+    margin: 0;
+    font-size: 12px;
+    width: 100%;
+    border: 1px solid #eee;
+  }
+  
+  .ReactTags__selected span.ReactTags__tag {
+    border: 1px solid #ddd;
+    background: #eee;
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    cursor: move;
+    border-radius: 2px;
+  }
+  
+  .ReactTags__selected a.ReactTags__remove {
+    color: #aaa;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .text-field{
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  .x-btn{
+    cursor: pointer;
+  }
+  #row-parent-div{
+    border-radius: 8px;
+    border: 1px solid #ddd ;
+    padding: 0.5rem 1rem ;
+    margin-right: 2.5rem;
+    margin-top: 1rem;
+  }

@@ -1,0 +1,24 @@
+#topbar-div{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding-top: 5px;
+}
+.serach-icon{
+    font-size: 20px ;
+}
+.vertical-line {
+    width: 1px; 
+    height: 25px; /* Adjust height as needed */
+    background-color: #ccc; /* Color of the line */
+    margin: 0 10px; /* Margin around the line */
+  }
+.arttt{
+    color: var(--Heading, #3F434A);
+font-family: "DM Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
